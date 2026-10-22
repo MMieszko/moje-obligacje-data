@@ -37,15 +37,15 @@ jobs:
       deploy: ${{ steps.live.outputs.deploy }}
       alerts: ${{ steps.alerts.outputs.count }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
       # restore/save rozdzielone: cache zapisywany także po nieudanym lub przerwanym przebiegu (audyt 2, W1)
       - name: Cache pobrań (restore)
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: tools/data/cache
           key: le-cache-${{ github.run_id }}-${{ github.run_attempt }}
@@ -66,14 +66,14 @@ jobs:
 
       - name: Cache pobrań (save)
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: tools/data/cache
           key: le-cache-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Wynik przebiegu jako artefakt (do porównań w trybie cienia)
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: data-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
@@ -113,7 +113,7 @@ jobs:
           git commit -m "data: $(python -c "import json;print(json.load(open('data/manifest.json'))['version'])")"
           git pull --rebase && git push
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         if: steps.live.outputs.deploy == 'true'
         with:
           path: data
@@ -127,7 +127,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   # Osobny job: alert daje maila, ale nie blokuje publikacji dobrych danych
   alerts:
