@@ -1,0 +1,140 @@
+# Codzienny build danych serii → walidacja → (opcjonalnie) publikacja na GitHub Pages.
+#
+# Tryb cienia (domyślny): buduje i waliduje codziennie, NIC nie publikuje — wynik jako artefakt przebiegu.
+# Publikacja włącza się zmienną repo PUBLISH=true (Settings → Variables), dopiero po 1–2 tygodniach bez alarmów.
+#
+# Klasy błędów (tools/data/README.md):
+#   - złe dane → build pada (exit 1), nic nie jest publikowane, mail z powodem (::error::);
+#   - dane nieaktualne/niezweryfikowane → build przechodzi bez dotkniętych stóp (w apce n/a), a job „alerts” pada → mail.
+name: data
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # codziennie 06:17 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["tools/**", ".github/workflows/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+env:
+  PAGES_URL: https://mmieszko.github.io/moje-obligacje-data/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Pierwszy przebieg bez cache: ~1000 żądań po 1 s; z USA wolniej niż z Polski (audyt 2, W1)
+    timeout-minutes: 150
+    outputs:
+      deploy: ${{ steps.live.outputs.deploy }}
+      alerts: ${{ steps.alerts.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # restore/save rozdzielone: cache zapisywany także po nieudanym lub przerwanym przebiegu (audyt 2, W1)
+      - name: Cache pobrań (restore)
+        uses: actions/cache/restore@v4
+        with:
+          path: tools/data/cache
+          key: le-cache-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: le-cache-
+
+      # Wersje przypięte: regexy LE strojone na pypdf 6.21.2 (audyt 2, W4)
+      - run: pip install xlrd==2.0.2 pypdf==6.21.2
+
+      # Tylko testy parsera. Testy audytowe (test_audit*.py) budują offline na cache i zależą od daty
+      # — uruchamiane lokalnie przy zmianach kodu, nie w CI (audyt 2, W2).
+      - name: Testy parsera
+        run: python -m unittest tools/data/test_build_series.py
+
+      - name: Build + walidacja
+        run: |
+          set -o pipefail
+          python tools/data/build_series.py 2>&1 | tee build.log
+
+      - name: Cache pobrań (save)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: tools/data/cache
+          key: le-cache-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Wynik przebiegu jako artefakt (do porównań w trybie cienia)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            data/
+            build.log
+            tools/data/alerts.out
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Alerty (dane nieaktualne/niezweryfikowane)
+        id: alerts
+        run: |
+          n=0
+          if [ -s tools/data/alerts.out ]; then n=$(wc -l < tools/data/alerts.out); fi
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+
+      # Publikujemy, gdy wersja lokalna ≠ wersja na Pages — a nie „gdy był commit”: nieudany deploy
+      # nie zostawia wtedy starych danych na zawsze (audyt 2, W3)
+      - name: Porównanie z opublikowaną wersją
+        id: live
+        # Publikacja wyłącznie z main — workflow_dispatch z innej gałęzi niczego nie wypycha (audyt 3, W1)
+        if: vars.PUBLISH == 'true' && github.ref == 'refs/heads/main'
+        run: |
+          local=$(python -c "import json;print(json.load(open('data/manifest.json'))['version'])")
+          live=$(curl -fsS "${PAGES_URL}manifest.json" | python -c "import sys,json;print(json.load(sys.stdin)['version'])" || echo none)
+          echo "local=$local live=$live"
+          if [ "$local" != "$live" ]; then echo "deploy=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Zapis historii danych
+        if: vars.PUBLISH == 'true' && github.ref == 'refs/heads/main'
+        run: |
+          # wykrywa też nieśledzone pliki w data/ (audyt 3, W2)
+          [ -z "$(git status --porcelain -- data/)" ] && exit 0
+          git config user.name "data-bot"
+          git config user.email "data-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "data: $(python -c "import json;print(json.load(open('data/manifest.json'))['version'])")"
+          git pull --rebase && git push
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.live.outputs.deploy == 'true'
+        with:
+          path: data
+
+  deploy:
+    needs: build
+    if: vars.PUBLISH == 'true' && github.ref == 'refs/heads/main' && needs.build.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Osobny job: alert daje maila, ale nie blokuje publikacji dobrych danych
+  alerts:
+    needs: build
+    if: needs.build.outputs.alerts != '0'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::${{ needs.build.outputs.alerts }} alert(ów) — szczegóły w artefakcie data-${{ github.run_id }}-${{ github.run_attempt }} (alerts.out)"
+          exit 1

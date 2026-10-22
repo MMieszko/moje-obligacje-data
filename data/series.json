@@ -1,0 +1,7270 @@
+{
+ "schema": 1,
+ "version": 2026102201,
+ "generatedAt": "2026-10-22T12:11:09+00:00",
+ "source": "MF 'Dane dotyczące obligacji detalicznych' https://www.gov.pl/attachment/3d42a295-18af-43c6-b56d-de975030f64a (Last-Modified 2026-10-09); early-redemption fee from listy emisyjne, obligacjeskarbowe.pl",
+ "series": {
+  "OTS0926": {
+   "type": "OTS",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0200"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.00",
+   "conversionPrice": "100.00",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "OTS1026": {
+   "type": "OTS",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0200"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.00",
+   "conversionPrice": "100.00",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "OTS1126": {
+   "type": "OTS",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0200"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.00",
+   "conversionPrice": "100.00",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "OTS1226": {
+   "type": "OTS",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0200"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.00",
+   "conversionPrice": "100.00",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "OTS0127": {
+   "type": "OTS",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0200"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.00",
+   "conversionPrice": "100.00",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0926": {
+   "type": "ROR",
+   "saleMonth": "2025-09",
+   "rates": [
+    "0.0500",
+    "0.0475",
+    "0.0450",
+    "0.0425",
+    "0.0400",
+    "0.0400",
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR1026": {
+   "type": "ROR",
+   "saleMonth": "2025-10",
+   "rates": [
+    "0.0475",
+    "0.0450",
+    "0.0425",
+    "0.0400",
+    "0.0400",
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR1126": {
+   "type": "ROR",
+   "saleMonth": "2025-11",
+   "rates": [
+    "0.0450",
+    "0.0425",
+    "0.0400",
+    "0.0400",
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR1226": {
+   "type": "ROR",
+   "saleMonth": "2025-12",
+   "rates": [
+    "0.0425",
+    "0.0400",
+    "0.0400",
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0127": {
+   "type": "ROR",
+   "saleMonth": "2026-01",
+   "rates": [
+    "0.0425",
+    "0.0400",
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0227": {
+   "type": "ROR",
+   "saleMonth": "2026-02",
+   "rates": [
+    "0.0425",
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0327": {
+   "type": "ROR",
+   "saleMonth": "2026-03",
+   "rates": [
+    "0.0425",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0427": {
+   "type": "ROR",
+   "saleMonth": "2026-04",
+   "rates": [
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0527": {
+   "type": "ROR",
+   "saleMonth": "2026-05",
+   "rates": [
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0627": {
+   "type": "ROR",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0727": {
+   "type": "ROR",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0827": {
+   "type": "ROR",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0400",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR0927": {
+   "type": "ROR",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0400",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROR1027": {
+   "type": "ROR",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0400"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0926": {
+   "type": "DOR",
+   "saleMonth": "2024-09",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR1026": {
+   "type": "DOR",
+   "saleMonth": "2024-10",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR1126": {
+   "type": "DOR",
+   "saleMonth": "2024-11",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR1226": {
+   "type": "DOR",
+   "saleMonth": "2024-12",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0127": {
+   "type": "DOR",
+   "saleMonth": "2025-01",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0227": {
+   "type": "DOR",
+   "saleMonth": "2025-02",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0327": {
+   "type": "DOR",
+   "saleMonth": "2025-03",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0427": {
+   "type": "DOR",
+   "saleMonth": "2025-04",
+   "rates": [
+    "0.0590",
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0527": {
+   "type": "DOR",
+   "saleMonth": "2025-05",
+   "rates": [
+    "0.0590",
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0627": {
+   "type": "DOR",
+   "saleMonth": "2025-06",
+   "rates": [
+    "0.0540",
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0727": {
+   "type": "DOR",
+   "saleMonth": "2025-07",
+   "rates": [
+    "0.0540",
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0827": {
+   "type": "DOR",
+   "saleMonth": "2025-08",
+   "rates": [
+    "0.0515",
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0927": {
+   "type": "DOR",
+   "saleMonth": "2025-09",
+   "rates": [
+    "0.0515",
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR1027": {
+   "type": "DOR",
+   "saleMonth": "2025-10",
+   "rates": [
+    "0.0490",
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR1127": {
+   "type": "DOR",
+   "saleMonth": "2025-11",
+   "rates": [
+    "0.0465",
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR1227": {
+   "type": "DOR",
+   "saleMonth": "2025-12",
+   "rates": [
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0128": {
+   "type": "DOR",
+   "saleMonth": "2026-01",
+   "rates": [
+    "0.0440",
+    "0.0415",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0228": {
+   "type": "DOR",
+   "saleMonth": "2026-02",
+   "rates": [
+    "0.0440",
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0328": {
+   "type": "DOR",
+   "saleMonth": "2026-03",
+   "rates": [
+    "0.0440",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0428": {
+   "type": "DOR",
+   "saleMonth": "2026-04",
+   "rates": [
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0528": {
+   "type": "DOR",
+   "saleMonth": "2026-05",
+   "rates": [
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0628": {
+   "type": "DOR",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0728": {
+   "type": "DOR",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0828": {
+   "type": "DOR",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0415",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR0928": {
+   "type": "DOR",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0415",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "DOR1028": {
+   "type": "DOR",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0415"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0926": {
+   "type": "TOS",
+   "saleMonth": "2023-09",
+   "rates": [
+    "0.0685",
+    "0.0685",
+    "0.0685"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1026": {
+   "type": "TOS",
+   "saleMonth": "2023-10",
+   "rates": [
+    "0.0685",
+    "0.0685",
+    "0.0685"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1126": {
+   "type": "TOS",
+   "saleMonth": "2023-11",
+   "rates": [
+    "0.0660",
+    "0.0660",
+    "0.0660"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1226": {
+   "type": "TOS",
+   "saleMonth": "2023-12",
+   "rates": [
+    "0.0660",
+    "0.0660",
+    "0.0660"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0127": {
+   "type": "TOS",
+   "saleMonth": "2024-01",
+   "rates": [
+    "0.0650",
+    "0.0650",
+    "0.0650"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0227": {
+   "type": "TOS",
+   "saleMonth": "2024-02",
+   "rates": [
+    "0.0640",
+    "0.0640",
+    "0.0640"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0327": {
+   "type": "TOS",
+   "saleMonth": "2024-03",
+   "rates": [
+    "0.0640",
+    "0.0640",
+    "0.0640"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0427": {
+   "type": "TOS",
+   "saleMonth": "2024-04",
+   "rates": [
+    "0.0640",
+    "0.0640",
+    "0.0640"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0527": {
+   "type": "TOS",
+   "saleMonth": "2024-05",
+   "rates": [
+    "0.0640",
+    "0.0640",
+    "0.0640"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0627": {
+   "type": "TOS",
+   "saleMonth": "2024-06",
+   "rates": [
+    "0.0620",
+    "0.0620",
+    "0.0620"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.80",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0727": {
+   "type": "TOS",
+   "saleMonth": "2024-07",
+   "rates": [
+    "0.0620",
+    "0.0620",
+    "0.0620"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.80",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0827": {
+   "type": "TOS",
+   "saleMonth": "2024-08",
+   "rates": [
+    "0.0620",
+    "0.0620",
+    "0.0620"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.80",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0927": {
+   "type": "TOS",
+   "saleMonth": "2024-09",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1027": {
+   "type": "TOS",
+   "saleMonth": "2024-10",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1127": {
+   "type": "TOS",
+   "saleMonth": "2024-11",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1227": {
+   "type": "TOS",
+   "saleMonth": "2024-12",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0128": {
+   "type": "TOS",
+   "saleMonth": "2025-01",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0228": {
+   "type": "TOS",
+   "saleMonth": "2025-02",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0328": {
+   "type": "TOS",
+   "saleMonth": "2025-03",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0428": {
+   "type": "TOS",
+   "saleMonth": "2025-04",
+   "rates": [
+    "0.0595",
+    "0.0595",
+    "0.0595"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0528": {
+   "type": "TOS",
+   "saleMonth": "2025-05",
+   "rates": [
+    "0.0575",
+    "0.0575",
+    "0.0575"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0628": {
+   "type": "TOS",
+   "saleMonth": "2025-06",
+   "rates": [
+    "0.0565",
+    "0.0565",
+    "0.0565"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0728": {
+   "type": "TOS",
+   "saleMonth": "2025-07",
+   "rates": [
+    "0.0565",
+    "0.0565",
+    "0.0565"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0828": {
+   "type": "TOS",
+   "saleMonth": "2025-08",
+   "rates": [
+    "0.0540",
+    "0.0540",
+    "0.0540"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0928": {
+   "type": "TOS",
+   "saleMonth": "2025-09",
+   "rates": [
+    "0.0540",
+    "0.0540",
+    "0.0540"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1028": {
+   "type": "TOS",
+   "saleMonth": "2025-10",
+   "rates": [
+    "0.0515",
+    "0.0515",
+    "0.0515"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1128": {
+   "type": "TOS",
+   "saleMonth": "2025-11",
+   "rates": [
+    "0.0490",
+    "0.0490",
+    "0.0490"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1228": {
+   "type": "TOS",
+   "saleMonth": "2025-12",
+   "rates": [
+    "0.0465",
+    "0.0465",
+    "0.0465"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0129": {
+   "type": "TOS",
+   "saleMonth": "2026-01",
+   "rates": [
+    "0.0465",
+    "0.0465",
+    "0.0465"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0229": {
+   "type": "TOS",
+   "saleMonth": "2026-02",
+   "rates": [
+    "0.0465",
+    "0.0465",
+    "0.0465"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0329": {
+   "type": "TOS",
+   "saleMonth": "2026-03",
+   "rates": [
+    "0.0465",
+    "0.0465",
+    "0.0465"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0429": {
+   "type": "TOS",
+   "saleMonth": "2026-04",
+   "rates": [
+    "0.0440",
+    "0.0440",
+    "0.0440"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0529": {
+   "type": "TOS",
+   "saleMonth": "2026-05",
+   "rates": [
+    "0.0440",
+    "0.0440",
+    "0.0440"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0629": {
+   "type": "TOS",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0440",
+    "0.0440",
+    "0.0440"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0729": {
+   "type": "TOS",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0440",
+    "0.0440",
+    "0.0440"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0829": {
+   "type": "TOS",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0440",
+    "0.0440",
+    "0.0440"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS0929": {
+   "type": "TOS",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0440",
+    "0.0440",
+    "0.0440"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "TOS1029": {
+   "type": "TOS",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0440",
+    "0.0440",
+    "0.0440"
+   ],
+   "margin": null,
+   "earlyRedemptionFee": "1.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0926": {
+   "type": "COI",
+   "saleMonth": "2022-09",
+   "rates": [
+    "0.0650",
+    "0.1180",
+    "0.0520",
+    "0.0410"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1026": {
+   "type": "COI",
+   "saleMonth": "2022-10",
+   "rates": [
+    "0.0700",
+    "0.1110",
+    "0.0530",
+    "0.0390"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1126": {
+   "type": "COI",
+   "saleMonth": "2022-11",
+   "rates": [
+    "0.0700",
+    "0.0920",
+    "0.0590",
+    "0.0390"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1226": {
+   "type": "COI",
+   "saleMonth": "2022-12",
+   "rates": [
+    "0.0700",
+    "0.0760",
+    "0.0600",
+    "0.0380"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0127": {
+   "type": "COI",
+   "saleMonth": "2023-01",
+   "rates": [
+    "0.0700",
+    "0.0760",
+    "0.0570",
+    "0.0350"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0227": {
+   "type": "COI",
+   "saleMonth": "2023-02",
+   "rates": [
+    "0.0700",
+    "0.0720",
+    "0.0570",
+    "0.0340"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0327": {
+   "type": "COI",
+   "saleMonth": "2023-03",
+   "rates": [
+    "0.0700",
+    "0.0490",
+    "0.0630",
+    "0.0320"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0427": {
+   "type": "COI",
+   "saleMonth": "2023-04",
+   "rates": [
+    "0.0700",
+    "0.0380",
+    "0.0590",
+    "0.0310"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0527": {
+   "type": "COI",
+   "saleMonth": "2023-05",
+   "rates": [
+    "0.0700",
+    "0.0300",
+    "0.0590",
+    "0.0400"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0627": {
+   "type": "COI",
+   "saleMonth": "2023-06",
+   "rates": [
+    "0.0700",
+    "0.0340",
+    "0.0530",
+    "0.0420"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.50",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0727": {
+   "type": "COI",
+   "saleMonth": "2023-07",
+   "rates": [
+    "0.0700",
+    "0.0350",
+    "0.0500",
+    "0.0410"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.50",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0827": {
+   "type": "COI",
+   "saleMonth": "2023-08",
+   "rates": [
+    "0.0700",
+    "0.0360",
+    "0.0510",
+    "0.0350"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.50",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0927": {
+   "type": "COI",
+   "saleMonth": "2023-09",
+   "rates": [
+    "0.0700",
+    "0.0520",
+    "0.0410",
+    "0.0400"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1027": {
+   "type": "COI",
+   "saleMonth": "2023-10",
+   "rates": [
+    "0.0700",
+    "0.0555",
+    "0.0415",
+    "0.0465"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1127": {
+   "type": "COI",
+   "saleMonth": "2023-11",
+   "rates": [
+    "0.0675",
+    "0.0615",
+    "0.0415"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1227": {
+   "type": "COI",
+   "saleMonth": "2023-12",
+   "rates": [
+    "0.0675",
+    "0.0625",
+    "0.0405"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0128": {
+   "type": "COI",
+   "saleMonth": "2024-01",
+   "rates": [
+    "0.0665",
+    "0.0595",
+    "0.0375"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0228": {
+   "type": "COI",
+   "saleMonth": "2024-02",
+   "rates": [
+    "0.0655",
+    "0.0595",
+    "0.0365"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0328": {
+   "type": "COI",
+   "saleMonth": "2024-03",
+   "rates": [
+    "0.0655",
+    "0.0655",
+    "0.0345"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0428": {
+   "type": "COI",
+   "saleMonth": "2024-04",
+   "rates": [
+    "0.0655",
+    "0.0615",
+    "0.0335"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0528": {
+   "type": "COI",
+   "saleMonth": "2024-05",
+   "rates": [
+    "0.0655",
+    "0.0615",
+    "0.0425"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0628": {
+   "type": "COI",
+   "saleMonth": "2024-06",
+   "rates": [
+    "0.0655",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.70",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0728": {
+   "type": "COI",
+   "saleMonth": "2024-07",
+   "rates": [
+    "0.0655",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.70",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0828": {
+   "type": "COI",
+   "saleMonth": "2024-08",
+   "rates": [
+    "0.0655",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.70",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0928": {
+   "type": "COI",
+   "saleMonth": "2024-09",
+   "rates": [
+    "0.0630",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1028": {
+   "type": "COI",
+   "saleMonth": "2024-10",
+   "rates": [
+    "0.0630",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1128": {
+   "type": "COI",
+   "saleMonth": "2024-11",
+   "rates": [
+    "0.0630",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1228": {
+   "type": "COI",
+   "saleMonth": "2024-12",
+   "rates": [
+    "0.0630",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0129": {
+   "type": "COI",
+   "saleMonth": "2025-01",
+   "rates": [
+    "0.0630",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0229": {
+   "type": "COI",
+   "saleMonth": "2025-02",
+   "rates": [
+    "0.0630",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0329": {
+   "type": "COI",
+   "saleMonth": "2025-03",
+   "rates": [
+    "0.0630",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0429": {
+   "type": "COI",
+   "saleMonth": "2025-04",
+   "rates": [
+    "0.0630",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0529": {
+   "type": "COI",
+   "saleMonth": "2025-05",
+   "rates": [
+    "0.0610",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0629": {
+   "type": "COI",
+   "saleMonth": "2025-06",
+   "rates": [
+    "0.0600",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0729": {
+   "type": "COI",
+   "saleMonth": "2025-07",
+   "rates": [
+    "0.0600",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0829": {
+   "type": "COI",
+   "saleMonth": "2025-08",
+   "rates": [
+    "0.0575",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0929": {
+   "type": "COI",
+   "saleMonth": "2025-09",
+   "rates": [
+    "0.0575",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1029": {
+   "type": "COI",
+   "saleMonth": "2025-10",
+   "rates": [
+    "0.0550",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1129": {
+   "type": "COI",
+   "saleMonth": "2025-11",
+   "rates": [
+    "0.0525"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1229": {
+   "type": "COI",
+   "saleMonth": "2025-12",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0130": {
+   "type": "COI",
+   "saleMonth": "2026-01",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0230": {
+   "type": "COI",
+   "saleMonth": "2026-02",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0330": {
+   "type": "COI",
+   "saleMonth": "2026-03",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0430": {
+   "type": "COI",
+   "saleMonth": "2026-04",
+   "rates": [
+    "0.0475"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0530": {
+   "type": "COI",
+   "saleMonth": "2026-05",
+   "rates": [
+    "0.0475"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0630": {
+   "type": "COI",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0475"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0730": {
+   "type": "COI",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0475"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0830": {
+   "type": "COI",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0475"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI0930": {
+   "type": "COI",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0475"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "COI1030": {
+   "type": "COI",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0475"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0926": {
+   "type": "EDO",
+   "saleMonth": "2016-09",
+   "rates": [
+    "0.0250",
+    "0.0320",
+    "0.0350",
+    "0.0440",
+    "0.0450",
+    "0.0650",
+    "0.1710",
+    "0.1230",
+    "0.0570",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1026": {
+   "type": "EDO",
+   "saleMonth": "2016-10",
+   "rates": [
+    "0.0250",
+    "0.0330",
+    "0.0350",
+    "0.0440",
+    "0.0440",
+    "0.0700",
+    "0.1760",
+    "0.1160",
+    "0.0580",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.70",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1126": {
+   "type": "EDO",
+   "saleMonth": "2016-11",
+   "rates": [
+    "0.0250",
+    "0.0370",
+    "0.0340",
+    "0.0410",
+    "0.0470",
+    "0.0740",
+    "0.1870",
+    "0.0970",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1226": {
+   "type": "EDO",
+   "saleMonth": "2016-12",
+   "rates": [
+    "0.0270",
+    "0.0360",
+    "0.0330",
+    "0.0400",
+    "0.0460",
+    "0.0830",
+    "0.1940",
+    "0.0810",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0127": {
+   "type": "EDO",
+   "saleMonth": "2017-01",
+   "rates": [
+    "0.0270",
+    "0.0400",
+    "0.0280",
+    "0.0410",
+    "0.0450",
+    "0.0930",
+    "0.1900",
+    "0.0810",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0227": {
+   "type": "EDO",
+   "saleMonth": "2017-02",
+   "rates": [
+    "0.0270",
+    "0.0360",
+    "0.0260",
+    "0.0490",
+    "0.0390",
+    "0.1010",
+    "0.1810",
+    "0.0770",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0327": {
+   "type": "EDO",
+   "saleMonth": "2017-03",
+   "rates": [
+    "0.0270",
+    "0.0340",
+    "0.0240",
+    "0.0590",
+    "0.0420",
+    "0.1070",
+    "0.1870",
+    "0.0540",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0427": {
+   "type": "EDO",
+   "saleMonth": "2017-04",
+   "rates": [
+    "0.0270",
+    "0.0290",
+    "0.0270",
+    "0.0620",
+    "0.0390",
+    "0.1000",
+    "0.1990",
+    "0.0430",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0527": {
+   "type": "EDO",
+   "saleMonth": "2017-05",
+   "rates": [
+    "0.0270",
+    "0.0280",
+    "0.0320",
+    "0.0610",
+    "0.0470",
+    "0.1250",
+    "0.1760",
+    "0.0350",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0627": {
+   "type": "EDO",
+   "saleMonth": "2017-06",
+   "rates": [
+    "0.0270",
+    "0.0310",
+    "0.0370",
+    "0.0490",
+    "0.0580",
+    "0.1390",
+    "0.1620",
+    "0.0390",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0727": {
+   "type": "EDO",
+   "saleMonth": "2017-07",
+   "rates": [
+    "0.0270",
+    "0.0320",
+    "0.0390",
+    "0.0440",
+    "0.0620",
+    "0.1540",
+    "0.1450",
+    "0.0400",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0827": {
+   "type": "EDO",
+   "saleMonth": "2017-08",
+   "rates": [
+    "0.0270",
+    "0.0350",
+    "0.0410",
+    "0.0480",
+    "0.0590",
+    "0.1700",
+    "0.1300",
+    "0.0410",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0927": {
+   "type": "EDO",
+   "saleMonth": "2017-09",
+   "rates": [
+    "0.0270",
+    "0.0350",
+    "0.0440",
+    "0.0450",
+    "0.0650",
+    "0.1710",
+    "0.1230",
+    "0.0570",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1027": {
+   "type": "EDO",
+   "saleMonth": "2017-10",
+   "rates": [
+    "0.0270",
+    "0.0350",
+    "0.0440",
+    "0.0440",
+    "0.0700",
+    "0.1760",
+    "0.1160",
+    "0.0580",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1127": {
+   "type": "EDO",
+   "saleMonth": "2017-11",
+   "rates": [
+    "0.0270",
+    "0.0340",
+    "0.0410",
+    "0.0470",
+    "0.0740",
+    "0.1870",
+    "0.0970",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1227": {
+   "type": "EDO",
+   "saleMonth": "2017-12",
+   "rates": [
+    "0.0270",
+    "0.0330",
+    "0.0400",
+    "0.0460",
+    "0.0830",
+    "0.1940",
+    "0.0810",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0128": {
+   "type": "EDO",
+   "saleMonth": "2018-01",
+   "rates": [
+    "0.0270",
+    "0.0280",
+    "0.0410",
+    "0.0450",
+    "0.0930",
+    "0.1900",
+    "0.0810",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0228": {
+   "type": "EDO",
+   "saleMonth": "2018-02",
+   "rates": [
+    "0.0270",
+    "0.0260",
+    "0.0490",
+    "0.0390",
+    "0.1010",
+    "0.1810",
+    "0.0770",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0328": {
+   "type": "EDO",
+   "saleMonth": "2018-03",
+   "rates": [
+    "0.0270",
+    "0.0240",
+    "0.0590",
+    "0.0420",
+    "0.1070",
+    "0.1870",
+    "0.0540",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0428": {
+   "type": "EDO",
+   "saleMonth": "2018-04",
+   "rates": [
+    "0.0270",
+    "0.0270",
+    "0.0620",
+    "0.0390",
+    "0.1000",
+    "0.1990",
+    "0.0430",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0528": {
+   "type": "EDO",
+   "saleMonth": "2018-05",
+   "rates": [
+    "0.0270",
+    "0.0320",
+    "0.0610",
+    "0.0470",
+    "0.1250",
+    "0.1760",
+    "0.0350",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0628": {
+   "type": "EDO",
+   "saleMonth": "2018-06",
+   "rates": [
+    "0.0270",
+    "0.0370",
+    "0.0490",
+    "0.0580",
+    "0.1390",
+    "0.1620",
+    "0.0390",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0728": {
+   "type": "EDO",
+   "saleMonth": "2018-07",
+   "rates": [
+    "0.0270",
+    "0.0390",
+    "0.0440",
+    "0.0620",
+    "0.1540",
+    "0.1450",
+    "0.0400",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0828": {
+   "type": "EDO",
+   "saleMonth": "2018-08",
+   "rates": [
+    "0.0270",
+    "0.0410",
+    "0.0480",
+    "0.0590",
+    "0.1700",
+    "0.1300",
+    "0.0410",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0928": {
+   "type": "EDO",
+   "saleMonth": "2018-09",
+   "rates": [
+    "0.0270",
+    "0.0440",
+    "0.0450",
+    "0.0650",
+    "0.1710",
+    "0.1230",
+    "0.0570",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1028": {
+   "type": "EDO",
+   "saleMonth": "2018-10",
+   "rates": [
+    "0.0270",
+    "0.0440",
+    "0.0440",
+    "0.0700",
+    "0.1760",
+    "0.1160",
+    "0.0580",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.50",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1128": {
+   "type": "EDO",
+   "saleMonth": "2018-11",
+   "rates": [
+    "0.0270",
+    "0.0410",
+    "0.0470",
+    "0.0740",
+    "0.1870",
+    "0.0970",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1228": {
+   "type": "EDO",
+   "saleMonth": "2018-12",
+   "rates": [
+    "0.0270",
+    "0.0400",
+    "0.0460",
+    "0.0830",
+    "0.1940",
+    "0.0810",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0129": {
+   "type": "EDO",
+   "saleMonth": "2019-01",
+   "rates": [
+    "0.0270",
+    "0.0410",
+    "0.0450",
+    "0.0930",
+    "0.1900",
+    "0.0810",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0229": {
+   "type": "EDO",
+   "saleMonth": "2019-02",
+   "rates": [
+    "0.0270",
+    "0.0490",
+    "0.0390",
+    "0.1010",
+    "0.1810",
+    "0.0770",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0329": {
+   "type": "EDO",
+   "saleMonth": "2019-03",
+   "rates": [
+    "0.0270",
+    "0.0590",
+    "0.0420",
+    "0.1070",
+    "0.1870",
+    "0.0540",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0429": {
+   "type": "EDO",
+   "saleMonth": "2019-04",
+   "rates": [
+    "0.0270",
+    "0.0620",
+    "0.0390",
+    "0.1000",
+    "0.1990",
+    "0.0430",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.50",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0529": {
+   "type": "EDO",
+   "saleMonth": "2019-05",
+   "rates": [
+    "0.0270",
+    "0.0610",
+    "0.0470",
+    "0.1250",
+    "0.1760",
+    "0.0350",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0629": {
+   "type": "EDO",
+   "saleMonth": "2019-06",
+   "rates": [
+    "0.0270",
+    "0.0490",
+    "0.0580",
+    "0.1390",
+    "0.1620",
+    "0.0390",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0729": {
+   "type": "EDO",
+   "saleMonth": "2019-07",
+   "rates": [
+    "0.0270",
+    "0.0440",
+    "0.0620",
+    "0.1540",
+    "0.1450",
+    "0.0400",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0829": {
+   "type": "EDO",
+   "saleMonth": "2019-08",
+   "rates": [
+    "0.0270",
+    "0.0480",
+    "0.0590",
+    "0.1700",
+    "0.1300",
+    "0.0410",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0929": {
+   "type": "EDO",
+   "saleMonth": "2019-09",
+   "rates": [
+    "0.0270",
+    "0.0450",
+    "0.0650",
+    "0.1710",
+    "0.1230",
+    "0.0570",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1029": {
+   "type": "EDO",
+   "saleMonth": "2019-10",
+   "rates": [
+    "0.0270",
+    "0.0440",
+    "0.0700",
+    "0.1760",
+    "0.1160",
+    "0.0580",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1129": {
+   "type": "EDO",
+   "saleMonth": "2019-11",
+   "rates": [
+    "0.0270",
+    "0.0470",
+    "0.0740",
+    "0.1870",
+    "0.0970",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1229": {
+   "type": "EDO",
+   "saleMonth": "2019-12",
+   "rates": [
+    "0.0270",
+    "0.0460",
+    "0.0830",
+    "0.1940",
+    "0.0810",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0130": {
+   "type": "EDO",
+   "saleMonth": "2020-01",
+   "rates": [
+    "0.0270",
+    "0.0450",
+    "0.0930",
+    "0.1900",
+    "0.0810",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0230": {
+   "type": "EDO",
+   "saleMonth": "2020-02",
+   "rates": [
+    "0.0270",
+    "0.0390",
+    "0.1010",
+    "0.1810",
+    "0.0770",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0330": {
+   "type": "EDO",
+   "saleMonth": "2020-03",
+   "rates": [
+    "0.0270",
+    "0.0420",
+    "0.1070",
+    "0.1870",
+    "0.0540",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0430": {
+   "type": "EDO",
+   "saleMonth": "2020-04",
+   "rates": [
+    "0.0270",
+    "0.0390",
+    "0.1000",
+    "0.1990",
+    "0.0430",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0530": {
+   "type": "EDO",
+   "saleMonth": "2020-05",
+   "rates": [
+    "0.0170",
+    "0.0420",
+    "0.1200",
+    "0.1710",
+    "0.0300",
+    "0.0590",
+    "0.0400"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0630": {
+   "type": "EDO",
+   "saleMonth": "2020-06",
+   "rates": [
+    "0.0170",
+    "0.0530",
+    "0.1340",
+    "0.1570",
+    "0.0340",
+    "0.0530",
+    "0.0420"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0730": {
+   "type": "EDO",
+   "saleMonth": "2020-07",
+   "rates": [
+    "0.0170",
+    "0.0570",
+    "0.1490",
+    "0.1400",
+    "0.0350",
+    "0.0500",
+    "0.0410"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0830": {
+   "type": "EDO",
+   "saleMonth": "2020-08",
+   "rates": [
+    "0.0170",
+    "0.0540",
+    "0.1650",
+    "0.1250",
+    "0.0360",
+    "0.0510",
+    "0.0350"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0930": {
+   "type": "EDO",
+   "saleMonth": "2020-09",
+   "rates": [
+    "0.0170",
+    "0.0600",
+    "0.1660",
+    "0.1180",
+    "0.0520",
+    "0.0410",
+    "0.0400"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1030": {
+   "type": "EDO",
+   "saleMonth": "2020-10",
+   "rates": [
+    "0.0170",
+    "0.0650",
+    "0.1710",
+    "0.1110",
+    "0.0530",
+    "0.0390",
+    "0.0440"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1130": {
+   "type": "EDO",
+   "saleMonth": "2020-11",
+   "rates": [
+    "0.0170",
+    "0.0690",
+    "0.1820",
+    "0.0920",
+    "0.0590",
+    "0.0390"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1230": {
+   "type": "EDO",
+   "saleMonth": "2020-12",
+   "rates": [
+    "0.0170",
+    "0.0780",
+    "0.1890",
+    "0.0760",
+    "0.0600",
+    "0.0380"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0131": {
+   "type": "EDO",
+   "saleMonth": "2021-01",
+   "rates": [
+    "0.0170",
+    "0.0880",
+    "0.1850",
+    "0.0760",
+    "0.0570",
+    "0.0350"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0231": {
+   "type": "EDO",
+   "saleMonth": "2021-02",
+   "rates": [
+    "0.0170",
+    "0.0960",
+    "0.1760",
+    "0.0720",
+    "0.0570",
+    "0.0340"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0331": {
+   "type": "EDO",
+   "saleMonth": "2021-03",
+   "rates": [
+    "0.0170",
+    "0.1020",
+    "0.1820",
+    "0.0490",
+    "0.0630",
+    "0.0320"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0431": {
+   "type": "EDO",
+   "saleMonth": "2021-04",
+   "rates": [
+    "0.0170",
+    "0.0950",
+    "0.1940",
+    "0.0380",
+    "0.0590",
+    "0.0310"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0531": {
+   "type": "EDO",
+   "saleMonth": "2021-05",
+   "rates": [
+    "0.0170",
+    "0.1200",
+    "0.1710",
+    "0.0300",
+    "0.0590",
+    "0.0400"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0631": {
+   "type": "EDO",
+   "saleMonth": "2021-06",
+   "rates": [
+    "0.0170",
+    "0.1340",
+    "0.1570",
+    "0.0340",
+    "0.0530",
+    "0.0420"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0731": {
+   "type": "EDO",
+   "saleMonth": "2021-07",
+   "rates": [
+    "0.0170",
+    "0.1490",
+    "0.1400",
+    "0.0350",
+    "0.0500",
+    "0.0410"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0831": {
+   "type": "EDO",
+   "saleMonth": "2021-08",
+   "rates": [
+    "0.0170",
+    "0.1650",
+    "0.1250",
+    "0.0360",
+    "0.0510",
+    "0.0350"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0931": {
+   "type": "EDO",
+   "saleMonth": "2021-09",
+   "rates": [
+    "0.0170",
+    "0.1660",
+    "0.1180",
+    "0.0520",
+    "0.0410",
+    "0.0400"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1031": {
+   "type": "EDO",
+   "saleMonth": "2021-10",
+   "rates": [
+    "0.0170",
+    "0.1710",
+    "0.1110",
+    "0.0530",
+    "0.0390",
+    "0.0440"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1131": {
+   "type": "EDO",
+   "saleMonth": "2021-11",
+   "rates": [
+    "0.0170",
+    "0.1820",
+    "0.0920",
+    "0.0590",
+    "0.0390"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1231": {
+   "type": "EDO",
+   "saleMonth": "2021-12",
+   "rates": [
+    "0.0170",
+    "0.1890",
+    "0.0760",
+    "0.0600",
+    "0.0380"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0132": {
+   "type": "EDO",
+   "saleMonth": "2022-01",
+   "rates": [
+    "0.0170",
+    "0.1850",
+    "0.0760",
+    "0.0570",
+    "0.0350"
+   ],
+   "margin": "0.0100",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0232": {
+   "type": "EDO",
+   "saleMonth": "2022-02",
+   "rates": [
+    "0.0220",
+    "0.1785",
+    "0.0745",
+    "0.0595",
+    "0.0365"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0332": {
+   "type": "EDO",
+   "saleMonth": "2022-03",
+   "rates": [
+    "0.0220",
+    "0.1845",
+    "0.0515",
+    "0.0655",
+    "0.0345"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0432": {
+   "type": "EDO",
+   "saleMonth": "2022-04",
+   "rates": [
+    "0.0270",
+    "0.1965",
+    "0.0405",
+    "0.0615",
+    "0.0335"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0532": {
+   "type": "EDO",
+   "saleMonth": "2022-05",
+   "rates": [
+    "0.0370",
+    "0.1735",
+    "0.0325",
+    "0.0615",
+    "0.0425"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0632": {
+   "type": "EDO",
+   "saleMonth": "2022-06",
+   "rates": [
+    "0.0575",
+    "0.1595",
+    "0.0365",
+    "0.0555",
+    "0.0445"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0732": {
+   "type": "EDO",
+   "saleMonth": "2022-07",
+   "rates": [
+    "0.0625",
+    "0.1425",
+    "0.0375",
+    "0.0525",
+    "0.0435"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0832": {
+   "type": "EDO",
+   "saleMonth": "2022-08",
+   "rates": [
+    "0.0675",
+    "0.1275",
+    "0.0385",
+    "0.0535",
+    "0.0375"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0932": {
+   "type": "EDO",
+   "saleMonth": "2022-09",
+   "rates": [
+    "0.0675",
+    "0.1205",
+    "0.0545",
+    "0.0435",
+    "0.0425"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1032": {
+   "type": "EDO",
+   "saleMonth": "2022-10",
+   "rates": [
+    "0.0725",
+    "0.1135",
+    "0.0555",
+    "0.0415",
+    "0.0465"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1132": {
+   "type": "EDO",
+   "saleMonth": "2022-11",
+   "rates": [
+    "0.0725",
+    "0.0945",
+    "0.0615",
+    "0.0415"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1232": {
+   "type": "EDO",
+   "saleMonth": "2022-12",
+   "rates": [
+    "0.0725",
+    "0.0785",
+    "0.0625",
+    "0.0405"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0133": {
+   "type": "EDO",
+   "saleMonth": "2023-01",
+   "rates": [
+    "0.0725",
+    "0.0785",
+    "0.0595",
+    "0.0375"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0233": {
+   "type": "EDO",
+   "saleMonth": "2023-02",
+   "rates": [
+    "0.0725",
+    "0.0745",
+    "0.0595",
+    "0.0365"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0333": {
+   "type": "EDO",
+   "saleMonth": "2023-03",
+   "rates": [
+    "0.0725",
+    "0.0515",
+    "0.0655",
+    "0.0345"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0433": {
+   "type": "EDO",
+   "saleMonth": "2023-04",
+   "rates": [
+    "0.0725",
+    "0.0405",
+    "0.0615",
+    "0.0335"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0533": {
+   "type": "EDO",
+   "saleMonth": "2023-05",
+   "rates": [
+    "0.0725",
+    "0.0325",
+    "0.0615",
+    "0.0425"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0633": {
+   "type": "EDO",
+   "saleMonth": "2023-06",
+   "rates": [
+    "0.0725",
+    "0.0365",
+    "0.0555",
+    "0.0445"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.40",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0733": {
+   "type": "EDO",
+   "saleMonth": "2023-07",
+   "rates": [
+    "0.0725",
+    "0.0375",
+    "0.0525",
+    "0.0435"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.40",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0833": {
+   "type": "EDO",
+   "saleMonth": "2023-08",
+   "rates": [
+    "0.0725",
+    "0.0385",
+    "0.0535",
+    "0.0375"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.40",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0933": {
+   "type": "EDO",
+   "saleMonth": "2023-09",
+   "rates": [
+    "0.0725",
+    "0.0545",
+    "0.0435",
+    "0.0425"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1033": {
+   "type": "EDO",
+   "saleMonth": "2023-10",
+   "rates": [
+    "0.0725",
+    "0.0580",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1133": {
+   "type": "EDO",
+   "saleMonth": "2023-11",
+   "rates": [
+    "0.0700",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1233": {
+   "type": "EDO",
+   "saleMonth": "2023-12",
+   "rates": [
+    "0.0700",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0134": {
+   "type": "EDO",
+   "saleMonth": "2024-01",
+   "rates": [
+    "0.0690",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0234": {
+   "type": "EDO",
+   "saleMonth": "2024-02",
+   "rates": [
+    "0.0680",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0334": {
+   "type": "EDO",
+   "saleMonth": "2024-03",
+   "rates": [
+    "0.0680",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0434": {
+   "type": "EDO",
+   "saleMonth": "2024-04",
+   "rates": [
+    "0.0680",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0534": {
+   "type": "EDO",
+   "saleMonth": "2024-05",
+   "rates": [
+    "0.0680",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0634": {
+   "type": "EDO",
+   "saleMonth": "2024-06",
+   "rates": [
+    "0.0680",
+    "0.0630",
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.60",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0734": {
+   "type": "EDO",
+   "saleMonth": "2024-07",
+   "rates": [
+    "0.0680",
+    "0.0600",
+    "0.0510"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.60",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0834": {
+   "type": "EDO",
+   "saleMonth": "2024-08",
+   "rates": [
+    "0.0680",
+    "0.0610",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": "99.60",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0934": {
+   "type": "EDO",
+   "saleMonth": "2024-09",
+   "rates": [
+    "0.0655",
+    "0.0510",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1034": {
+   "type": "EDO",
+   "saleMonth": "2024-10",
+   "rates": [
+    "0.0655",
+    "0.0490",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1134": {
+   "type": "EDO",
+   "saleMonth": "2024-11",
+   "rates": [
+    "0.0655",
+    "0.0490"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1234": {
+   "type": "EDO",
+   "saleMonth": "2024-12",
+   "rates": [
+    "0.0655",
+    "0.0480"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0135": {
+   "type": "EDO",
+   "saleMonth": "2025-01",
+   "rates": [
+    "0.0655",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0235": {
+   "type": "EDO",
+   "saleMonth": "2025-02",
+   "rates": [
+    "0.0655",
+    "0.0440"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0335": {
+   "type": "EDO",
+   "saleMonth": "2025-03",
+   "rates": [
+    "0.0655",
+    "0.0420"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0435": {
+   "type": "EDO",
+   "saleMonth": "2025-04",
+   "rates": [
+    "0.0655",
+    "0.0410"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0535": {
+   "type": "EDO",
+   "saleMonth": "2025-05",
+   "rates": [
+    "0.0635",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0635": {
+   "type": "EDO",
+   "saleMonth": "2025-06",
+   "rates": [
+    "0.0625",
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0735": {
+   "type": "EDO",
+   "saleMonth": "2025-07",
+   "rates": [
+    "0.0625",
+    "0.0510"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0835": {
+   "type": "EDO",
+   "saleMonth": "2025-08",
+   "rates": [
+    "0.0600",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0935": {
+   "type": "EDO",
+   "saleMonth": "2025-09",
+   "rates": [
+    "0.0600",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1035": {
+   "type": "EDO",
+   "saleMonth": "2025-10",
+   "rates": [
+    "0.0600",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1135": {
+   "type": "EDO",
+   "saleMonth": "2025-11",
+   "rates": [
+    "0.0575"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1235": {
+   "type": "EDO",
+   "saleMonth": "2025-12",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0136": {
+   "type": "EDO",
+   "saleMonth": "2026-01",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0236": {
+   "type": "EDO",
+   "saleMonth": "2026-02",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0336": {
+   "type": "EDO",
+   "saleMonth": "2026-03",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0436": {
+   "type": "EDO",
+   "saleMonth": "2026-04",
+   "rates": [
+    "0.0535"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0536": {
+   "type": "EDO",
+   "saleMonth": "2026-05",
+   "rates": [
+    "0.0535"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0636": {
+   "type": "EDO",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0535"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0736": {
+   "type": "EDO",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0535"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0836": {
+   "type": "EDO",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0535"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO0936": {
+   "type": "EDO",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0535"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "EDO1036": {
+   "type": "EDO",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0535"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0926": {
+   "type": "ROS",
+   "saleMonth": "2020-09",
+   "rates": [
+    "0.0150",
+    "0.0625",
+    "0.1685",
+    "0.1205",
+    "0.0545",
+    "0.0435"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1026": {
+   "type": "ROS",
+   "saleMonth": "2020-10",
+   "rates": [
+    "0.0150",
+    "0.0675",
+    "0.1735",
+    "0.1135",
+    "0.0555",
+    "0.0415"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1126": {
+   "type": "ROS",
+   "saleMonth": "2020-11",
+   "rates": [
+    "0.0150",
+    "0.0715",
+    "0.1845",
+    "0.0945",
+    "0.0615",
+    "0.0415"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1226": {
+   "type": "ROS",
+   "saleMonth": "2020-12",
+   "rates": [
+    "0.0150",
+    "0.0805",
+    "0.1915",
+    "0.0785",
+    "0.0625",
+    "0.0405"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0127": {
+   "type": "ROS",
+   "saleMonth": "2021-01",
+   "rates": [
+    "0.0150",
+    "0.0905",
+    "0.1875",
+    "0.0785",
+    "0.0595",
+    "0.0375"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0227": {
+   "type": "ROS",
+   "saleMonth": "2021-02",
+   "rates": [
+    "0.0150",
+    "0.0985",
+    "0.1785",
+    "0.0745",
+    "0.0595",
+    "0.0365"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0327": {
+   "type": "ROS",
+   "saleMonth": "2021-03",
+   "rates": [
+    "0.0150",
+    "0.1045",
+    "0.1845",
+    "0.0515",
+    "0.0655",
+    "0.0345"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0427": {
+   "type": "ROS",
+   "saleMonth": "2021-04",
+   "rates": [
+    "0.0150",
+    "0.0975",
+    "0.1965",
+    "0.0405",
+    "0.0615",
+    "0.0335"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0527": {
+   "type": "ROS",
+   "saleMonth": "2021-05",
+   "rates": [
+    "0.0150",
+    "0.1225",
+    "0.1735",
+    "0.0325",
+    "0.0615",
+    "0.0425"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0627": {
+   "type": "ROS",
+   "saleMonth": "2021-06",
+   "rates": [
+    "0.0150",
+    "0.1365",
+    "0.1595",
+    "0.0365",
+    "0.0555",
+    "0.0445"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0727": {
+   "type": "ROS",
+   "saleMonth": "2021-07",
+   "rates": [
+    "0.0150",
+    "0.1515",
+    "0.1425",
+    "0.0375",
+    "0.0525",
+    "0.0435"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0827": {
+   "type": "ROS",
+   "saleMonth": "2021-08",
+   "rates": [
+    "0.0150",
+    "0.1675",
+    "0.1275",
+    "0.0385",
+    "0.0535",
+    "0.0375"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0927": {
+   "type": "ROS",
+   "saleMonth": "2021-09",
+   "rates": [
+    "0.0150",
+    "0.1685",
+    "0.1205",
+    "0.0545",
+    "0.0435",
+    "0.0425"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1027": {
+   "type": "ROS",
+   "saleMonth": "2021-10",
+   "rates": [
+    "0.0150",
+    "0.1735",
+    "0.1135",
+    "0.0555",
+    "0.0415",
+    "0.0465"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1127": {
+   "type": "ROS",
+   "saleMonth": "2021-11",
+   "rates": [
+    "0.0150",
+    "0.1845",
+    "0.0945",
+    "0.0615",
+    "0.0415"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1227": {
+   "type": "ROS",
+   "saleMonth": "2021-12",
+   "rates": [
+    "0.0150",
+    "0.1915",
+    "0.0785",
+    "0.0625",
+    "0.0405"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0128": {
+   "type": "ROS",
+   "saleMonth": "2022-01",
+   "rates": [
+    "0.0150",
+    "0.1875",
+    "0.0785",
+    "0.0595",
+    "0.0375"
+   ],
+   "margin": "0.0125",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0228": {
+   "type": "ROS",
+   "saleMonth": "2022-02",
+   "rates": [
+    "0.0200",
+    "0.1810",
+    "0.0770",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0328": {
+   "type": "ROS",
+   "saleMonth": "2022-03",
+   "rates": [
+    "0.0200",
+    "0.1870",
+    "0.0540",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0428": {
+   "type": "ROS",
+   "saleMonth": "2022-04",
+   "rates": [
+    "0.0250",
+    "0.1990",
+    "0.0430",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0528": {
+   "type": "ROS",
+   "saleMonth": "2022-05",
+   "rates": [
+    "0.0350",
+    "0.1760",
+    "0.0350",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0628": {
+   "type": "ROS",
+   "saleMonth": "2022-06",
+   "rates": [
+    "0.0570",
+    "0.1620",
+    "0.0390",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0728": {
+   "type": "ROS",
+   "saleMonth": "2022-07",
+   "rates": [
+    "0.0620",
+    "0.1450",
+    "0.0400",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0828": {
+   "type": "ROS",
+   "saleMonth": "2022-08",
+   "rates": [
+    "0.0670",
+    "0.1300",
+    "0.0410",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0928": {
+   "type": "ROS",
+   "saleMonth": "2022-09",
+   "rates": [
+    "0.0670",
+    "0.1230",
+    "0.0570",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1028": {
+   "type": "ROS",
+   "saleMonth": "2022-10",
+   "rates": [
+    "0.0720",
+    "0.1160",
+    "0.0580",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1128": {
+   "type": "ROS",
+   "saleMonth": "2022-11",
+   "rates": [
+    "0.0720",
+    "0.0970",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1228": {
+   "type": "ROS",
+   "saleMonth": "2022-12",
+   "rates": [
+    "0.0720",
+    "0.0810",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0129": {
+   "type": "ROS",
+   "saleMonth": "2023-01",
+   "rates": [
+    "0.0720",
+    "0.0810",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0229": {
+   "type": "ROS",
+   "saleMonth": "2023-02",
+   "rates": [
+    "0.0720",
+    "0.0770",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0329": {
+   "type": "ROS",
+   "saleMonth": "2023-03",
+   "rates": [
+    "0.0720",
+    "0.0540",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0429": {
+   "type": "ROS",
+   "saleMonth": "2023-04",
+   "rates": [
+    "0.0720",
+    "0.0430",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0529": {
+   "type": "ROS",
+   "saleMonth": "2023-05",
+   "rates": [
+    "0.0720",
+    "0.0350",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0629": {
+   "type": "ROS",
+   "saleMonth": "2023-06",
+   "rates": [
+    "0.0720",
+    "0.0390",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0729": {
+   "type": "ROS",
+   "saleMonth": "2023-07",
+   "rates": [
+    "0.0720",
+    "0.0400",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0829": {
+   "type": "ROS",
+   "saleMonth": "2023-08",
+   "rates": [
+    "0.0720",
+    "0.0410",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0929": {
+   "type": "ROS",
+   "saleMonth": "2023-09",
+   "rates": [
+    "0.0720",
+    "0.0570",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1029": {
+   "type": "ROS",
+   "saleMonth": "2023-10",
+   "rates": [
+    "0.0720",
+    "0.0605",
+    "0.0465",
+    "0.0515"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1129": {
+   "type": "ROS",
+   "saleMonth": "2023-11",
+   "rates": [
+    "0.0695",
+    "0.0665",
+    "0.0465"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1229": {
+   "type": "ROS",
+   "saleMonth": "2023-12",
+   "rates": [
+    "0.0695",
+    "0.0675",
+    "0.0455"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0130": {
+   "type": "ROS",
+   "saleMonth": "2024-01",
+   "rates": [
+    "0.0685",
+    "0.0645",
+    "0.0425"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0230": {
+   "type": "ROS",
+   "saleMonth": "2024-02",
+   "rates": [
+    "0.0675",
+    "0.0645",
+    "0.0415"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0330": {
+   "type": "ROS",
+   "saleMonth": "2024-03",
+   "rates": [
+    "0.0675",
+    "0.0705",
+    "0.0395"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0430": {
+   "type": "ROS",
+   "saleMonth": "2024-04",
+   "rates": [
+    "0.0675",
+    "0.0665",
+    "0.0385"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0530": {
+   "type": "ROS",
+   "saleMonth": "2024-05",
+   "rates": [
+    "0.0675",
+    "0.0665",
+    "0.0475"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0630": {
+   "type": "ROS",
+   "saleMonth": "2024-06",
+   "rates": [
+    "0.0675",
+    "0.0630",
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0730": {
+   "type": "ROS",
+   "saleMonth": "2024-07",
+   "rates": [
+    "0.0675",
+    "0.0600",
+    "0.0510"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0830": {
+   "type": "ROS",
+   "saleMonth": "2024-08",
+   "rates": [
+    "0.0675",
+    "0.0610",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0930": {
+   "type": "ROS",
+   "saleMonth": "2024-09",
+   "rates": [
+    "0.0650",
+    "0.0510",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1030": {
+   "type": "ROS",
+   "saleMonth": "2024-10",
+   "rates": [
+    "0.0650",
+    "0.0490",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1130": {
+   "type": "ROS",
+   "saleMonth": "2024-11",
+   "rates": [
+    "0.0650",
+    "0.0490"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1230": {
+   "type": "ROS",
+   "saleMonth": "2024-12",
+   "rates": [
+    "0.0650",
+    "0.0480"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0131": {
+   "type": "ROS",
+   "saleMonth": "2025-01",
+   "rates": [
+    "0.0650",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0231": {
+   "type": "ROS",
+   "saleMonth": "2025-02",
+   "rates": [
+    "0.0650",
+    "0.0440"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0331": {
+   "type": "ROS",
+   "saleMonth": "2025-03",
+   "rates": [
+    "0.0650",
+    "0.0420"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0431": {
+   "type": "ROS",
+   "saleMonth": "2025-04",
+   "rates": [
+    "0.0650",
+    "0.0410"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0531": {
+   "type": "ROS",
+   "saleMonth": "2025-05",
+   "rates": [
+    "0.0630",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0631": {
+   "type": "ROS",
+   "saleMonth": "2025-06",
+   "rates": [
+    "0.0620",
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0731": {
+   "type": "ROS",
+   "saleMonth": "2025-07",
+   "rates": [
+    "0.0620",
+    "0.0510"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0831": {
+   "type": "ROS",
+   "saleMonth": "2025-08",
+   "rates": [
+    "0.0595",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0931": {
+   "type": "ROS",
+   "saleMonth": "2025-09",
+   "rates": [
+    "0.0595",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1031": {
+   "type": "ROS",
+   "saleMonth": "2025-10",
+   "rates": [
+    "0.0570",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1131": {
+   "type": "ROS",
+   "saleMonth": "2025-11",
+   "rates": [
+    "0.0545"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1231": {
+   "type": "ROS",
+   "saleMonth": "2025-12",
+   "rates": [
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0132": {
+   "type": "ROS",
+   "saleMonth": "2026-01",
+   "rates": [
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0232": {
+   "type": "ROS",
+   "saleMonth": "2026-02",
+   "rates": [
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0332": {
+   "type": "ROS",
+   "saleMonth": "2026-03",
+   "rates": [
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0432": {
+   "type": "ROS",
+   "saleMonth": "2026-04",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0532": {
+   "type": "ROS",
+   "saleMonth": "2026-05",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0632": {
+   "type": "ROS",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0732": {
+   "type": "ROS",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0832": {
+   "type": "ROS",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS0932": {
+   "type": "ROS",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROS1032": {
+   "type": "ROS",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1028": {
+   "type": "ROD",
+   "saleMonth": "2016-10",
+   "rates": [
+    "0.0300",
+    "0.0380",
+    "0.0400",
+    "0.0490",
+    "0.0490",
+    "0.0750",
+    "0.1810",
+    "0.1210",
+    "0.0630",
+    "0.0490",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1128": {
+   "type": "ROD",
+   "saleMonth": "2016-11",
+   "rates": [
+    "0.0300",
+    "0.0420",
+    "0.0390",
+    "0.0460",
+    "0.0520",
+    "0.0790",
+    "0.1920",
+    "0.1020",
+    "0.0690",
+    "0.0490"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1228": {
+   "type": "ROD",
+   "saleMonth": "2016-12",
+   "rates": [
+    "0.0320",
+    "0.0410",
+    "0.0380",
+    "0.0450",
+    "0.0510",
+    "0.0880",
+    "0.1990",
+    "0.0860",
+    "0.0700",
+    "0.0480"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0129": {
+   "type": "ROD",
+   "saleMonth": "2017-01",
+   "rates": [
+    "0.0320",
+    "0.0450",
+    "0.0330",
+    "0.0460",
+    "0.0500",
+    "0.0980",
+    "0.1950",
+    "0.0860",
+    "0.0670",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0229": {
+   "type": "ROD",
+   "saleMonth": "2017-02",
+   "rates": [
+    "0.0320",
+    "0.0410",
+    "0.0310",
+    "0.0540",
+    "0.0440",
+    "0.1060",
+    "0.1860",
+    "0.0820",
+    "0.0670",
+    "0.0440"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0329": {
+   "type": "ROD",
+   "saleMonth": "2017-03",
+   "rates": [
+    "0.0320",
+    "0.0390",
+    "0.0290",
+    "0.0640",
+    "0.0470",
+    "0.1120",
+    "0.1920",
+    "0.0590",
+    "0.0730",
+    "0.0420"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0429": {
+   "type": "ROD",
+   "saleMonth": "2017-04",
+   "rates": [
+    "0.0320",
+    "0.0340",
+    "0.0320",
+    "0.0670",
+    "0.0440",
+    "0.1050",
+    "0.2040",
+    "0.0480",
+    "0.0690",
+    "0.0410"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0529": {
+   "type": "ROD",
+   "saleMonth": "2017-05",
+   "rates": [
+    "0.0320",
+    "0.0330",
+    "0.0370",
+    "0.0660",
+    "0.0520",
+    "0.1300",
+    "0.1810",
+    "0.0400",
+    "0.0690",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0629": {
+   "type": "ROD",
+   "saleMonth": "2017-06",
+   "rates": [
+    "0.0320",
+    "0.0360",
+    "0.0420",
+    "0.0540",
+    "0.0630",
+    "0.1440",
+    "0.1670",
+    "0.0440",
+    "0.0630",
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0729": {
+   "type": "ROD",
+   "saleMonth": "2017-07",
+   "rates": [
+    "0.0320",
+    "0.0370",
+    "0.0440",
+    "0.0490",
+    "0.0670",
+    "0.1590",
+    "0.1500",
+    "0.0450",
+    "0.0600",
+    "0.0510"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0829": {
+   "type": "ROD",
+   "saleMonth": "2017-08",
+   "rates": [
+    "0.0320",
+    "0.0400",
+    "0.0460",
+    "0.0530",
+    "0.0640",
+    "0.1750",
+    "0.1350",
+    "0.0460",
+    "0.0610",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0929": {
+   "type": "ROD",
+   "saleMonth": "2017-09",
+   "rates": [
+    "0.0320",
+    "0.0400",
+    "0.0490",
+    "0.0500",
+    "0.0700",
+    "0.1760",
+    "0.1280",
+    "0.0620",
+    "0.0510",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1029": {
+   "type": "ROD",
+   "saleMonth": "2017-10",
+   "rates": [
+    "0.0320",
+    "0.0400",
+    "0.0490",
+    "0.0490",
+    "0.0750",
+    "0.1810",
+    "0.1210",
+    "0.0630",
+    "0.0490",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1129": {
+   "type": "ROD",
+   "saleMonth": "2017-11",
+   "rates": [
+    "0.0320",
+    "0.0390",
+    "0.0460",
+    "0.0520",
+    "0.0790",
+    "0.1920",
+    "0.1020",
+    "0.0690",
+    "0.0490"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1229": {
+   "type": "ROD",
+   "saleMonth": "2017-12",
+   "rates": [
+    "0.0320",
+    "0.0380",
+    "0.0450",
+    "0.0510",
+    "0.0880",
+    "0.1990",
+    "0.0860",
+    "0.0700",
+    "0.0480"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0130": {
+   "type": "ROD",
+   "saleMonth": "2018-01",
+   "rates": [
+    "0.0320",
+    "0.0330",
+    "0.0460",
+    "0.0500",
+    "0.0980",
+    "0.1950",
+    "0.0860",
+    "0.0670",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0230": {
+   "type": "ROD",
+   "saleMonth": "2018-02",
+   "rates": [
+    "0.0320",
+    "0.0310",
+    "0.0540",
+    "0.0440",
+    "0.1060",
+    "0.1860",
+    "0.0820",
+    "0.0670",
+    "0.0440"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0330": {
+   "type": "ROD",
+   "saleMonth": "2018-03",
+   "rates": [
+    "0.0320",
+    "0.0290",
+    "0.0640",
+    "0.0470",
+    "0.1120",
+    "0.1920",
+    "0.0590",
+    "0.0730",
+    "0.0420"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0430": {
+   "type": "ROD",
+   "saleMonth": "2018-04",
+   "rates": [
+    "0.0320",
+    "0.0320",
+    "0.0670",
+    "0.0440",
+    "0.1050",
+    "0.2040",
+    "0.0480",
+    "0.0690",
+    "0.0410"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0530": {
+   "type": "ROD",
+   "saleMonth": "2018-05",
+   "rates": [
+    "0.0320",
+    "0.0370",
+    "0.0660",
+    "0.0520",
+    "0.1300",
+    "0.1810",
+    "0.0400",
+    "0.0690",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0630": {
+   "type": "ROD",
+   "saleMonth": "2018-06",
+   "rates": [
+    "0.0320",
+    "0.0420",
+    "0.0540",
+    "0.0630",
+    "0.1440",
+    "0.1670",
+    "0.0440",
+    "0.0630",
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0730": {
+   "type": "ROD",
+   "saleMonth": "2018-07",
+   "rates": [
+    "0.0320",
+    "0.0440",
+    "0.0490",
+    "0.0670",
+    "0.1590",
+    "0.1500",
+    "0.0450",
+    "0.0600",
+    "0.0510"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0830": {
+   "type": "ROD",
+   "saleMonth": "2018-08",
+   "rates": [
+    "0.0320",
+    "0.0460",
+    "0.0530",
+    "0.0640",
+    "0.1750",
+    "0.1350",
+    "0.0460",
+    "0.0610",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0930": {
+   "type": "ROD",
+   "saleMonth": "2018-09",
+   "rates": [
+    "0.0320",
+    "0.0490",
+    "0.0500",
+    "0.0700",
+    "0.1760",
+    "0.1280",
+    "0.0620",
+    "0.0510",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1030": {
+   "type": "ROD",
+   "saleMonth": "2018-10",
+   "rates": [
+    "0.0320",
+    "0.0490",
+    "0.0490",
+    "0.0750",
+    "0.1810",
+    "0.1210",
+    "0.0630",
+    "0.0490",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1130": {
+   "type": "ROD",
+   "saleMonth": "2018-11",
+   "rates": [
+    "0.0320",
+    "0.0460",
+    "0.0520",
+    "0.0790",
+    "0.1920",
+    "0.1020",
+    "0.0690",
+    "0.0490"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1230": {
+   "type": "ROD",
+   "saleMonth": "2018-12",
+   "rates": [
+    "0.0320",
+    "0.0450",
+    "0.0510",
+    "0.0880",
+    "0.1990",
+    "0.0860",
+    "0.0700",
+    "0.0480"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0131": {
+   "type": "ROD",
+   "saleMonth": "2019-01",
+   "rates": [
+    "0.0320",
+    "0.0460",
+    "0.0500",
+    "0.0980",
+    "0.1950",
+    "0.0860",
+    "0.0670",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0231": {
+   "type": "ROD",
+   "saleMonth": "2019-02",
+   "rates": [
+    "0.0320",
+    "0.0540",
+    "0.0440",
+    "0.1060",
+    "0.1860",
+    "0.0820",
+    "0.0670",
+    "0.0440"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0331": {
+   "type": "ROD",
+   "saleMonth": "2019-03",
+   "rates": [
+    "0.0320",
+    "0.0640",
+    "0.0470",
+    "0.1120",
+    "0.1920",
+    "0.0590",
+    "0.0730",
+    "0.0420"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0431": {
+   "type": "ROD",
+   "saleMonth": "2019-04",
+   "rates": [
+    "0.0320",
+    "0.0670",
+    "0.0440",
+    "0.1050",
+    "0.2040",
+    "0.0480",
+    "0.0690",
+    "0.0410"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0531": {
+   "type": "ROD",
+   "saleMonth": "2019-05",
+   "rates": [
+    "0.0320",
+    "0.0660",
+    "0.0520",
+    "0.1300",
+    "0.1810",
+    "0.0400",
+    "0.0690",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0631": {
+   "type": "ROD",
+   "saleMonth": "2019-06",
+   "rates": [
+    "0.0320",
+    "0.0540",
+    "0.0630",
+    "0.1440",
+    "0.1670",
+    "0.0440",
+    "0.0630",
+    "0.0520"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0731": {
+   "type": "ROD",
+   "saleMonth": "2019-07",
+   "rates": [
+    "0.0320",
+    "0.0490",
+    "0.0670",
+    "0.1590",
+    "0.1500",
+    "0.0450",
+    "0.0600",
+    "0.0510"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0831": {
+   "type": "ROD",
+   "saleMonth": "2019-08",
+   "rates": [
+    "0.0320",
+    "0.0530",
+    "0.0640",
+    "0.1750",
+    "0.1350",
+    "0.0460",
+    "0.0610",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0931": {
+   "type": "ROD",
+   "saleMonth": "2019-09",
+   "rates": [
+    "0.0320",
+    "0.0500",
+    "0.0700",
+    "0.1760",
+    "0.1280",
+    "0.0620",
+    "0.0510",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1031": {
+   "type": "ROD",
+   "saleMonth": "2019-10",
+   "rates": [
+    "0.0320",
+    "0.0490",
+    "0.0750",
+    "0.1810",
+    "0.1210",
+    "0.0630",
+    "0.0490",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1131": {
+   "type": "ROD",
+   "saleMonth": "2019-11",
+   "rates": [
+    "0.0320",
+    "0.0520",
+    "0.0790",
+    "0.1920",
+    "0.1020",
+    "0.0690",
+    "0.0490"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1231": {
+   "type": "ROD",
+   "saleMonth": "2019-12",
+   "rates": [
+    "0.0320",
+    "0.0510",
+    "0.0880",
+    "0.1990",
+    "0.0860",
+    "0.0700",
+    "0.0480"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0132": {
+   "type": "ROD",
+   "saleMonth": "2020-01",
+   "rates": [
+    "0.0320",
+    "0.0500",
+    "0.0980",
+    "0.1950",
+    "0.0860",
+    "0.0670",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0232": {
+   "type": "ROD",
+   "saleMonth": "2020-02",
+   "rates": [
+    "0.0320",
+    "0.0440",
+    "0.1060",
+    "0.1860",
+    "0.0820",
+    "0.0670",
+    "0.0440"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0332": {
+   "type": "ROD",
+   "saleMonth": "2020-03",
+   "rates": [
+    "0.0320",
+    "0.0470",
+    "0.1120",
+    "0.1920",
+    "0.0590",
+    "0.0730",
+    "0.0420"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0432": {
+   "type": "ROD",
+   "saleMonth": "2020-04",
+   "rates": [
+    "0.0320",
+    "0.0440",
+    "0.1050",
+    "0.2040",
+    "0.0480",
+    "0.0690",
+    "0.0410"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0532": {
+   "type": "ROD",
+   "saleMonth": "2020-05",
+   "rates": [
+    "0.0200",
+    "0.0470",
+    "0.1250",
+    "0.1760",
+    "0.0350",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0632": {
+   "type": "ROD",
+   "saleMonth": "2020-06",
+   "rates": [
+    "0.0200",
+    "0.0580",
+    "0.1390",
+    "0.1620",
+    "0.0390",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0732": {
+   "type": "ROD",
+   "saleMonth": "2020-07",
+   "rates": [
+    "0.0200",
+    "0.0620",
+    "0.1540",
+    "0.1450",
+    "0.0400",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0832": {
+   "type": "ROD",
+   "saleMonth": "2020-08",
+   "rates": [
+    "0.0200",
+    "0.0590",
+    "0.1700",
+    "0.1300",
+    "0.0410",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0932": {
+   "type": "ROD",
+   "saleMonth": "2020-09",
+   "rates": [
+    "0.0200",
+    "0.0650",
+    "0.1710",
+    "0.1230",
+    "0.0570",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1032": {
+   "type": "ROD",
+   "saleMonth": "2020-10",
+   "rates": [
+    "0.0200",
+    "0.0700",
+    "0.1760",
+    "0.1160",
+    "0.0580",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1132": {
+   "type": "ROD",
+   "saleMonth": "2020-11",
+   "rates": [
+    "0.0200",
+    "0.0740",
+    "0.1870",
+    "0.0970",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1232": {
+   "type": "ROD",
+   "saleMonth": "2020-12",
+   "rates": [
+    "0.0200",
+    "0.0830",
+    "0.1940",
+    "0.0810",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0133": {
+   "type": "ROD",
+   "saleMonth": "2021-01",
+   "rates": [
+    "0.0200",
+    "0.0930",
+    "0.1900",
+    "0.0810",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0233": {
+   "type": "ROD",
+   "saleMonth": "2021-02",
+   "rates": [
+    "0.0200",
+    "0.1010",
+    "0.1810",
+    "0.0770",
+    "0.0620",
+    "0.0390"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0333": {
+   "type": "ROD",
+   "saleMonth": "2021-03",
+   "rates": [
+    "0.0200",
+    "0.1070",
+    "0.1870",
+    "0.0540",
+    "0.0680",
+    "0.0370"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0433": {
+   "type": "ROD",
+   "saleMonth": "2021-04",
+   "rates": [
+    "0.0200",
+    "0.1000",
+    "0.1990",
+    "0.0430",
+    "0.0640",
+    "0.0360"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0533": {
+   "type": "ROD",
+   "saleMonth": "2021-05",
+   "rates": [
+    "0.0200",
+    "0.1250",
+    "0.1760",
+    "0.0350",
+    "0.0640",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0633": {
+   "type": "ROD",
+   "saleMonth": "2021-06",
+   "rates": [
+    "0.0200",
+    "0.1390",
+    "0.1620",
+    "0.0390",
+    "0.0580",
+    "0.0470"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0733": {
+   "type": "ROD",
+   "saleMonth": "2021-07",
+   "rates": [
+    "0.0200",
+    "0.1540",
+    "0.1450",
+    "0.0400",
+    "0.0550",
+    "0.0460"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0833": {
+   "type": "ROD",
+   "saleMonth": "2021-08",
+   "rates": [
+    "0.0200",
+    "0.1700",
+    "0.1300",
+    "0.0410",
+    "0.0560",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0933": {
+   "type": "ROD",
+   "saleMonth": "2021-09",
+   "rates": [
+    "0.0200",
+    "0.1710",
+    "0.1230",
+    "0.0570",
+    "0.0460",
+    "0.0450"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1033": {
+   "type": "ROD",
+   "saleMonth": "2021-10",
+   "rates": [
+    "0.0200",
+    "0.1760",
+    "0.1160",
+    "0.0580",
+    "0.0440",
+    "0.0490"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1133": {
+   "type": "ROD",
+   "saleMonth": "2021-11",
+   "rates": [
+    "0.0200",
+    "0.1870",
+    "0.0970",
+    "0.0640",
+    "0.0440"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1233": {
+   "type": "ROD",
+   "saleMonth": "2021-12",
+   "rates": [
+    "0.0200",
+    "0.1940",
+    "0.0810",
+    "0.0650",
+    "0.0430"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0134": {
+   "type": "ROD",
+   "saleMonth": "2022-01",
+   "rates": [
+    "0.0200",
+    "0.1900",
+    "0.0810",
+    "0.0620",
+    "0.0400"
+   ],
+   "margin": "0.0150",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0234": {
+   "type": "ROD",
+   "saleMonth": "2022-02",
+   "rates": [
+    "0.0250",
+    "0.1835",
+    "0.0795",
+    "0.0645",
+    "0.0415"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0334": {
+   "type": "ROD",
+   "saleMonth": "2022-03",
+   "rates": [
+    "0.0250",
+    "0.1895",
+    "0.0565",
+    "0.0705",
+    "0.0395"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0434": {
+   "type": "ROD",
+   "saleMonth": "2022-04",
+   "rates": [
+    "0.0300",
+    "0.2015",
+    "0.0455",
+    "0.0665",
+    "0.0385"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0534": {
+   "type": "ROD",
+   "saleMonth": "2022-05",
+   "rates": [
+    "0.0400",
+    "0.1785",
+    "0.0375",
+    "0.0665",
+    "0.0475"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0634": {
+   "type": "ROD",
+   "saleMonth": "2022-06",
+   "rates": [
+    "0.0600",
+    "0.1645",
+    "0.0415",
+    "0.0605",
+    "0.0495"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0734": {
+   "type": "ROD",
+   "saleMonth": "2022-07",
+   "rates": [
+    "0.0650",
+    "0.1475",
+    "0.0425",
+    "0.0575",
+    "0.0485"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0834": {
+   "type": "ROD",
+   "saleMonth": "2022-08",
+   "rates": [
+    "0.0700",
+    "0.1325",
+    "0.0435",
+    "0.0585",
+    "0.0425"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0934": {
+   "type": "ROD",
+   "saleMonth": "2022-09",
+   "rates": [
+    "0.0700",
+    "0.1255",
+    "0.0595",
+    "0.0485",
+    "0.0475"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1034": {
+   "type": "ROD",
+   "saleMonth": "2022-10",
+   "rates": [
+    "0.0750",
+    "0.1185",
+    "0.0605",
+    "0.0465",
+    "0.0515"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1134": {
+   "type": "ROD",
+   "saleMonth": "2022-11",
+   "rates": [
+    "0.0750",
+    "0.0995",
+    "0.0665",
+    "0.0465"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1234": {
+   "type": "ROD",
+   "saleMonth": "2022-12",
+   "rates": [
+    "0.0750",
+    "0.0835",
+    "0.0675",
+    "0.0455"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0135": {
+   "type": "ROD",
+   "saleMonth": "2023-01",
+   "rates": [
+    "0.0750",
+    "0.0835",
+    "0.0645",
+    "0.0425"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0235": {
+   "type": "ROD",
+   "saleMonth": "2023-02",
+   "rates": [
+    "0.0750",
+    "0.0795",
+    "0.0645",
+    "0.0415"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0335": {
+   "type": "ROD",
+   "saleMonth": "2023-03",
+   "rates": [
+    "0.0750",
+    "0.0565",
+    "0.0705",
+    "0.0395"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0435": {
+   "type": "ROD",
+   "saleMonth": "2023-04",
+   "rates": [
+    "0.0750",
+    "0.0455",
+    "0.0665",
+    "0.0385"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0535": {
+   "type": "ROD",
+   "saleMonth": "2023-05",
+   "rates": [
+    "0.0750",
+    "0.0375",
+    "0.0665",
+    "0.0475"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0635": {
+   "type": "ROD",
+   "saleMonth": "2023-06",
+   "rates": [
+    "0.0750",
+    "0.0415",
+    "0.0605",
+    "0.0495"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0735": {
+   "type": "ROD",
+   "saleMonth": "2023-07",
+   "rates": [
+    "0.0750",
+    "0.0425",
+    "0.0575",
+    "0.0485"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0835": {
+   "type": "ROD",
+   "saleMonth": "2023-08",
+   "rates": [
+    "0.0750",
+    "0.0435",
+    "0.0585",
+    "0.0425"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0935": {
+   "type": "ROD",
+   "saleMonth": "2023-09",
+   "rates": [
+    "0.0750",
+    "0.0595",
+    "0.0485",
+    "0.0475"
+   ],
+   "margin": "0.0175",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1035": {
+   "type": "ROD",
+   "saleMonth": "2023-10",
+   "rates": [
+    "0.0750",
+    "0.0630",
+    "0.0490",
+    "0.0540"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1135": {
+   "type": "ROD",
+   "saleMonth": "2023-11",
+   "rates": [
+    "0.0725",
+    "0.0690",
+    "0.0490"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1235": {
+   "type": "ROD",
+   "saleMonth": "2023-12",
+   "rates": [
+    "0.0725",
+    "0.0700",
+    "0.0480"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0136": {
+   "type": "ROD",
+   "saleMonth": "2024-01",
+   "rates": [
+    "0.0715",
+    "0.0670",
+    "0.0450"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0236": {
+   "type": "ROD",
+   "saleMonth": "2024-02",
+   "rates": [
+    "0.0705",
+    "0.0670",
+    "0.0440"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0336": {
+   "type": "ROD",
+   "saleMonth": "2024-03",
+   "rates": [
+    "0.0705",
+    "0.0730",
+    "0.0420"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0436": {
+   "type": "ROD",
+   "saleMonth": "2024-04",
+   "rates": [
+    "0.0705",
+    "0.0690",
+    "0.0410"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0536": {
+   "type": "ROD",
+   "saleMonth": "2024-05",
+   "rates": [
+    "0.0705",
+    "0.0690",
+    "0.0500"
+   ],
+   "margin": "0.0200",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0636": {
+   "type": "ROD",
+   "saleMonth": "2024-06",
+   "rates": [
+    "0.0705",
+    "0.0680",
+    "0.0570"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0736": {
+   "type": "ROD",
+   "saleMonth": "2024-07",
+   "rates": [
+    "0.0705",
+    "0.0650",
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0836": {
+   "type": "ROD",
+   "saleMonth": "2024-08",
+   "rates": [
+    "0.0705",
+    "0.0660",
+    "0.0500"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "2.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0936": {
+   "type": "ROD",
+   "saleMonth": "2024-09",
+   "rates": [
+    "0.0680",
+    "0.0560",
+    "0.0550"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1036": {
+   "type": "ROD",
+   "saleMonth": "2024-10",
+   "rates": [
+    "0.0680",
+    "0.0540",
+    "0.0590"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1136": {
+   "type": "ROD",
+   "saleMonth": "2024-11",
+   "rates": [
+    "0.0680",
+    "0.0540"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1236": {
+   "type": "ROD",
+   "saleMonth": "2024-12",
+   "rates": [
+    "0.0680",
+    "0.0530"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0137": {
+   "type": "ROD",
+   "saleMonth": "2025-01",
+   "rates": [
+    "0.0680",
+    "0.0500"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0237": {
+   "type": "ROD",
+   "saleMonth": "2025-02",
+   "rates": [
+    "0.0680",
+    "0.0490"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0337": {
+   "type": "ROD",
+   "saleMonth": "2025-03",
+   "rates": [
+    "0.0680",
+    "0.0470"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0437": {
+   "type": "ROD",
+   "saleMonth": "2025-04",
+   "rates": [
+    "0.0680",
+    "0.0460"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0537": {
+   "type": "ROD",
+   "saleMonth": "2025-05",
+   "rates": [
+    "0.0660",
+    "0.0550"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0637": {
+   "type": "ROD",
+   "saleMonth": "2025-06",
+   "rates": [
+    "0.0650",
+    "0.0570"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0737": {
+   "type": "ROD",
+   "saleMonth": "2025-07",
+   "rates": [
+    "0.0650",
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0837": {
+   "type": "ROD",
+   "saleMonth": "2025-08",
+   "rates": [
+    "0.0625",
+    "0.0500"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0937": {
+   "type": "ROD",
+   "saleMonth": "2025-09",
+   "rates": [
+    "0.0625",
+    "0.0550"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1037": {
+   "type": "ROD",
+   "saleMonth": "2025-10",
+   "rates": [
+    "0.0625",
+    "0.0590"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1137": {
+   "type": "ROD",
+   "saleMonth": "2025-11",
+   "rates": [
+    "0.0600"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1237": {
+   "type": "ROD",
+   "saleMonth": "2025-12",
+   "rates": [
+    "0.0585"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0138": {
+   "type": "ROD",
+   "saleMonth": "2026-01",
+   "rates": [
+    "0.0585"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0238": {
+   "type": "ROD",
+   "saleMonth": "2026-02",
+   "rates": [
+    "0.0585"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0338": {
+   "type": "ROD",
+   "saleMonth": "2026-03",
+   "rates": [
+    "0.0585"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0438": {
+   "type": "ROD",
+   "saleMonth": "2026-04",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0538": {
+   "type": "ROD",
+   "saleMonth": "2026-05",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0638": {
+   "type": "ROD",
+   "saleMonth": "2026-06",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0738": {
+   "type": "ROD",
+   "saleMonth": "2026-07",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0838": {
+   "type": "ROD",
+   "saleMonth": "2026-08",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD0938": {
+   "type": "ROD",
+   "saleMonth": "2026-09",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  },
+  "ROD1038": {
+   "type": "ROD",
+   "saleMonth": "2026-10",
+   "rates": [
+    "0.0560"
+   ],
+   "margin": "0.0250",
+   "earlyRedemptionFee": "3.00",
+   "conversionPrice": null,
+   "firstRateFixed": true,
+   "source": "XLS"
+  }
+ }
+}

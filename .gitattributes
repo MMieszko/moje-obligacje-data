@@ -1,0 +1,2 @@
+# Published data: byte-exact (manifest sha256 is over LF bytes); never convert line endings
+data/*.json -text

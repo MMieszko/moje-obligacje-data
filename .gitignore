@@ -1,0 +1,4 @@
+tools/data/cache/
+__pycache__/
+tools/data/alerts.out
+build.log
