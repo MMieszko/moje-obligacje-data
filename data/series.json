@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 2026102201,
- "generatedAt": "2026-10-22T12:11:09+00:00",
+ "version": 2026102202,
+ "generatedAt": "2026-10-22T15:08:36+00:00",
  "source": "MF 'Dane dotyczące obligacji detalicznych' https://www.gov.pl/attachment/3d42a295-18af-43c6-b56d-de975030f64a (Last-Modified 2026-10-09); early-redemption fee from listy emisyjne, obligacjeskarbowe.pl",
  "series": {
   "OTS0926": {
@@ -1702,13 +1702,20 @@
    "rates": [
     "0.0675",
     "0.0615",
-    "0.0415"
+    "0.0415",
+    "0.0535"
    ],
    "margin": "0.0125",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "COI1227": {
    "type": "COI",
@@ -1869,13 +1876,19 @@
    "saleMonth": "2024-11",
    "rates": [
     "0.0630",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "COI1228": {
    "type": "COI",
@@ -2024,13 +2037,18 @@
    "type": "COI",
    "saleMonth": "2025-11",
    "rates": [
-    "0.0525"
+    "0.0525",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "TO"
+   ]
   },
   "COI1229": {
    "type": "COI",
@@ -2470,13 +2488,26 @@
     "0.1870",
     "0.0970",
     "0.0640",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1227": {
    "type": "EDO",
@@ -2709,13 +2740,25 @@
     "0.1870",
     "0.0970",
     "0.0640",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1228": {
    "type": "EDO",
@@ -2936,13 +2979,24 @@
     "0.1870",
     "0.0970",
     "0.0640",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1229": {
    "type": "EDO",
@@ -3151,13 +3205,23 @@
     "0.1820",
     "0.0920",
     "0.0590",
-    "0.0390"
+    "0.0390",
+    "0.0510"
    ],
    "margin": "0.0100",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1230": {
    "type": "EDO",
@@ -3354,13 +3418,22 @@
     "0.1820",
     "0.0920",
     "0.0590",
-    "0.0390"
+    "0.0390",
+    "0.0510"
    ],
    "margin": "0.0100",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1231": {
    "type": "EDO",
@@ -3545,13 +3618,21 @@
     "0.0725",
     "0.0945",
     "0.0615",
-    "0.0415"
+    "0.0415",
+    "0.0535"
    ],
    "margin": "0.0125",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1232": {
    "type": "EDO",
@@ -3724,13 +3805,20 @@
    "rates": [
     "0.0700",
     "0.0640",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1233": {
    "type": "EDO",
@@ -3891,13 +3979,19 @@
    "saleMonth": "2024-11",
    "rates": [
     "0.0655",
-    "0.0490"
+    "0.0490",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "3.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1234": {
    "type": "EDO",
@@ -4046,13 +4140,18 @@
    "type": "EDO",
    "saleMonth": "2025-11",
    "rates": [
-    "0.0575"
+    "0.0575",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "3.00",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "TO"
+   ]
   },
   "EDO1235": {
    "type": "EDO",
@@ -4432,13 +4531,22 @@
     "0.1845",
     "0.0945",
     "0.0615",
-    "0.0415"
+    "0.0415",
+    "0.0535"
    ],
    "margin": "0.0125",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROS1227": {
    "type": "ROS",
@@ -4623,13 +4731,21 @@
     "0.0720",
     "0.0970",
     "0.0640",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROS1228": {
    "type": "ROS",
@@ -4802,13 +4918,20 @@
    "rates": [
     "0.0695",
     "0.0665",
-    "0.0465"
+    "0.0465",
+    "0.0585"
    ],
    "margin": "0.0175",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROS1229": {
    "type": "ROS",
@@ -4969,13 +5092,19 @@
    "saleMonth": "2024-11",
    "rates": [
     "0.0650",
-    "0.0490"
+    "0.0490",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROS1230": {
    "type": "ROS",
@@ -5124,13 +5253,18 @@
    "type": "ROS",
    "saleMonth": "2025-11",
    "rates": [
-    "0.0545"
+    "0.0545",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "TO"
+   ]
   },
   "ROS1231": {
    "type": "ROS",
@@ -5299,13 +5433,27 @@
     "0.1920",
     "0.1020",
     "0.0690",
-    "0.0490"
+    "0.0490",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1228": {
    "type": "ROD",
@@ -5550,13 +5698,26 @@
     "0.1920",
     "0.1020",
     "0.0690",
-    "0.0490"
+    "0.0490",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1229": {
    "type": "ROD",
@@ -5789,13 +5950,25 @@
     "0.1920",
     "0.1020",
     "0.0690",
-    "0.0490"
+    "0.0490",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1230": {
    "type": "ROD",
@@ -6016,13 +6189,24 @@
     "0.1920",
     "0.1020",
     "0.0690",
-    "0.0490"
+    "0.0490",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1231": {
    "type": "ROD",
@@ -6231,13 +6415,23 @@
     "0.1870",
     "0.0970",
     "0.0640",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1232": {
    "type": "ROD",
@@ -6434,13 +6628,22 @@
     "0.1870",
     "0.0970",
     "0.0640",
-    "0.0440"
+    "0.0440",
+    "0.0560"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1233": {
    "type": "ROD",
@@ -6625,13 +6828,21 @@
     "0.0750",
     "0.0995",
     "0.0665",
-    "0.0465"
+    "0.0465",
+    "0.0585"
    ],
    "margin": "0.0175",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1234": {
    "type": "ROD",
@@ -6804,13 +7015,20 @@
    "rates": [
     "0.0725",
     "0.0690",
-    "0.0490"
+    "0.0490",
+    "0.0610"
    ],
    "margin": "0.0200",
    "earlyRedemptionFee": "2.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1235": {
    "type": "ROD",
@@ -6971,13 +7189,19 @@
    "saleMonth": "2024-11",
    "rates": [
     "0.0680",
-    "0.0540"
+    "0.0540",
+    "0.0660"
    ],
    "margin": "0.0250",
    "earlyRedemptionFee": "3.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1236": {
    "type": "ROD",
@@ -7126,13 +7350,18 @@
    "type": "ROD",
    "saleMonth": "2025-11",
    "rates": [
-    "0.0600"
+    "0.0600",
+    "0.0660"
    ],
    "margin": "0.0250",
    "earlyRedemptionFee": "3.00",
    "conversionPrice": null,
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "TO"
+   ]
   },
   "ROD1237": {
    "type": "ROD",

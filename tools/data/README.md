@@ -21,6 +21,21 @@ w danych kończy się `exit 1` i niczego nie publikuje.
    w każdym przebiegu najnowsze ogłoszone stopy każdego typu porównywane z oficjalną tabelą
    („Oprocentowanie w bieżącym okresie”, „Okres odsetkowy”, kod serii). OTS nie ma tabel.
 
+### Stopy z tabel odsetkowych (`"rateSources"`)
+
+Arkusz MF ma stopy okresów zaczynających się 1. dnia miesiąca dopiero po swojej aktualizacji (~9.), a tabele
+odsetkowe tych okresów są na stronie ok. 20. poprzedniego miesiąca (2026-10-22: 27 stóp okresów od 1.11,
+których arkusz z 2026-10-09 nie ma). Dlatego dla serii w zakresie kolejne okresy po ostatniej stopie z arkusza
+(ciągle, start najwyżej 45 dni naprzód) są brane z tabeli: „Oprocentowanie w bieżącym okresie”. Takie stopy
+przechodzą tę samą walidację (zakres, spójność `stopa − marża` w grupie CPI/NBP, reguły opublikowanego
+indeksu), a seria dostaje `"rateSources": ["XLS", …, "TO"]` (pole tylko, gdy któraś stopa jest z tabeli).
+Arkusz wygrywa: gdy później poda ten sam okres, zmiana względem opublikowanej wartości to błąd A.
+Kod serii i numer okresu bierzemy **z PDF-a**, nigdy z etykiety w liście rozwijanej (tabela 23869 jest tam
+opisana jako DOR0728, a PDF to DOR0727) — niezgodna tabela jest traktowana jak brak tabeli. Stopy bywają
+drukowane bez groszy („4%”). Pobierane są tylko tabele, których PDF-a nie ma jeszcze w cache (tabele są
+niezmienne), więc codzienny przebieg pyta serwer o kilka nowych tabel w miesiącu. Opublikowana stopa z tabeli
+nie znika, gdy tabela jest chwilowo niedostępna (zostaje z poprzedniej publikacji).
+
 ### Serie z samego LE (`"source": "LE"`)
 
 Arkusz MF dostaje serie nowego miesiąca dopiero ok. 9., a listy emisyjne na następny miesiąc są ok. 21.–25.
@@ -56,6 +71,7 @@ python -m unittest discover -s tools/data -p "test_*.py"
 ```
 
 Testy: `test_build_series.py` (parsery i reguły na próbkach z `testdata/`; jedyne uruchamiane w CI),
+`test_integration.py` (pełne buildy `--offline` na prawdziwym cache, np. alert „nieznany typ”) oraz
 `test_audit.py`, `test_audit2.py`, `test_audit3.py` (audyty 2026-10-22; część testów buduje `--offline` na prawdziwym cache,
 bez cache są pomijane; testy poziomu workflow W1–W3 są pominięte — pilnuje ich `data.yml`). Żaden test nie
 zależy od zegara ani od treści opublikowanego `data/series.json`, gdy oczekiwanie zależy od danych:
@@ -106,9 +122,6 @@ Każdy nieprzewidziany wyjątek kończy się `FATAL: …` i `exit 1`, nie traceb
   powodu, to błąd. Liczba pozostałych kotwic stałych nie ma znaczenia (żadnej bomby z datą) — ciągłość
   dają kotwice głębokie;
 - liczba serii spadła o >5% względem poprzedniego `data/series.json`;
-- **nieznany typ obligacji**: seria w zakresie o prefiksie spoza 8 typów silnika — w dowolnym arkuszu XLS
-  spoza tych 8 (także w nowym arkuszu) albo w listingu listów emisyjnych. Komunikat
-  `UNKNOWN BOND TYPE <prefiks>` z listą serii = aplikacja wymaga zmiany kodu (`BondType.kt`).
 
 ### (B) — alert, wstrzymanie tylko dotkniętych danych
 
@@ -136,6 +149,10 @@ Każdy nieprzewidziany wyjątek kończy się `FATAL: …` i `exit 1`, nie traceb
   rytmie MF (arkusz z ~9. poprzedniego miesiąca ma ≤ 30 dni, oferta bieżąca jest z LE). Stary arkusz to
   dane stare, nie złe: brakujące nowe okresy są po prostu nieobecne;
 - pobranie nie powiodło się i użyto starej kopii z cache.
+- **nieznany typ obligacji**: seria w zakresie o prefiksie spoza 8 typów silnika — w dowolnym arkuszu XLS
+  spoza tych 8 (także w nowym arkuszu) albo w listingu listów emisyjnych. Aplikacja i tak nie umie wycenić
+  nieznanego typu, więc jego serie nie trafiają do `series.json`, a reszta jest publikowana. Alert w każdym
+  przebiegu, dopóki problem trwa: `UNKNOWN BOND TYPE <prefiks>: <serie> — app needs a code update (BondType.kt)`.
 
 ### Znane typy historyczne (ignorowane, wszystkie serie wykupione)
 

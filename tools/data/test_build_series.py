@@ -405,5 +405,55 @@ class Audit2Rules(unittest.TestCase):
         self.assertEqual(errs, [])
 
 
+class TableSource(unittest.TestCase):
+    def test_rate_without_decimals(self):
+        r = b.parse_to_text("TABELA Oprocentowanie w bieżącym okresie: 4% Okres odsetkowy: 3 DOR0727 Warszawa")
+        self.assertEqual(r, (D("0.0400"), "DOR0727", 3))
+
+    def _run(self, tables):
+        real = b.to_table
+
+        def fake(code, k, start, to_listing, offline):
+            key = (code, k)
+            if key not in tables:
+                raise b.NoTable("none")
+            v = tables[key]
+            if isinstance(v, Exception):
+                raise v
+            return D(v), "1"
+        b.to_table = fake
+        try:
+            x = b.XlsSeries("EDO1135", "EDO", dt.date(2025, 11, 1), [D("0.0560")], D("0.0200"), D("99.90"))
+            warn, added = b.augment_from_tables({"EDO1135": x}, ({}, {}), dt.date(2026, 10, 22), True)
+        finally:
+            b.to_table = real
+        return x, warn, added
+
+    def test_adds_next_period_and_marks_source(self):
+        x, warn, added = self._run({("EDO1135", 1): "0.0610"})
+        self.assertEqual((x.rates, x.to_rates, added), ([D("0.0560"), D("0.0610")], 1, ["EDO1135#2"]))
+        e = b.to_json_entry(x, b.LeTerms(D("3.00"), D("0.0560"), D("99.90"), frozenset({"EDO1135"})))
+        self.assertEqual(e["rateSources"], ["XLS", "TO"])
+        # the XLS count check ignores table rates (XLS as of 2026-10-09 knows 1 period)
+        self.assertEqual(b.validate_series(x, b.LeTerms(D("3.00"), D("0.0560"), D("99.90"), frozenset({"EDO1135"})),
+                                           dt.date(2026, 10, 9), {}, {}), [])
+
+    def test_mislabeled_table_not_used(self):
+        x, warn, added = self._run({("EDO1135", 1): b.Mislabeled("table 1 is EDO1134 period 3 (mislabeled)")})
+        self.assertEqual((len(x.rates), added), (1, []))
+        self.assertTrue(warn)
+
+    def test_beyond_horizon_not_fetched(self):
+        x = b.XlsSeries("EDO1236", "EDO", dt.date(2026, 12, 1), [D("0.0535")], D("0.0200"), None)
+        calls = []
+        real = b.to_table
+        b.to_table = lambda *a: calls.append(a) or (D("0.05"), "1")
+        try:
+            b.augment_from_tables({"EDO1236": x}, ({}, {}), dt.date(2026, 10, 22), True)
+        finally:
+            b.to_table = real
+        self.assertEqual(calls, [])       # period 2 starts 2027-12: far beyond the look-ahead
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -316,6 +316,7 @@ class XlsSeries:
     conversion_price: Decimal | None
     gaps: list[int] = field(default_factory=list)   # 1-based periods blank before a filled one
     source: str = "XLS"                              # "LE" = built from the list emisyjny alone
+    to_rates: int = 0                                # trailing rates taken from interest tables (XLS lags)
 
 
 def _cell_blank(v) -> bool:
@@ -510,17 +511,6 @@ def parse_to_listing(page_html: str) -> tuple[dict[str, str], dict[str, dict[dt.
     return issues, tables
 
 
-def parse_to_text(text: str) -> tuple[Decimal, str, int]:
-    """Interest-table PDF -> (rate of the period as fraction, series code, period number)."""
-    t = normalize_text(text)
-    r = re.search(r"Oprocentowanie w bieżącym okresie:\s*(\d+,\d+)\s*%", t)
-    p = re.search(r"Okres odsetkowy:\s*(\d+)", t)
-    c = re.search(r"\b([A-Z]{3}\d{4})\b", t)
-    if not (r and p and c):
-        raise BuildError("interest table: rate/period/code not found")
-    return (pl_num(r.group(1)) / 100).quantize(Decimal("0.0001")), c.group(1), int(p.group(1))
-
-
 def select_to_anchors(scope: dict[str, XlsSeries], as_of: dt.date) -> dict[str, list[tuple[str, int]]]:
     """Per type, candidates in preference order -> {type: [(code, period index k)]}.
 
@@ -533,7 +523,8 @@ def select_to_anchors(scope: dict[str, XlsSeries], as_of: dt.date) -> dict[str, 
         for x in scope.values():
             if x.type != btype or x.source != "XLS" or not x.rates:
                 continue
-            k = expected_known_periods(btype, x.sale_start, as_of) - 1 if btype in FIXED_RATE else len(x.rates) - 1
+            # newest XLS rate (rates taken from interest tables would only be compared with themselves)
+            k = expected_known_periods(btype, x.sale_start, as_of) - 1 if btype in FIXED_RATE else len(x.rates) - 1 - x.to_rates
             if k >= 0:
                 cands.append(((add_months(x.sale_start, k * per), k >= 1), x.sale_start, x.code, k))
         groups: dict = {}
@@ -556,22 +547,89 @@ def load_to_listing(offline: bool):
     return parse_to_listing(fetch(url, name, age, offline, kind="to_listing").decode("utf-8", "replace"))
 
 
-def check_to_rate(code: str, k: int, start: dt.date, want: Decimal, to_listing, offline: bool) -> None:
-    """Official interest table of `code` period k+1 (starting `start`) must show `want`.
-    NoTable = the site has no such table; BuildError = the table disagrees or is not that series/period."""
+def parse_to_text(text: str) -> tuple[Decimal, str, int]:
+    """Interest-table PDF -> (rate of the period as fraction, series code, period number).
+
+    The code is the one PRINTED IN THE PDF: the site's dropdown mislabels some tables (23869 is listed as
+    DOR0728, the PDF is DOR0727). Rates may be printed without decimals ("4%")."""
+    t = normalize_text(text)
+    r = re.search(r"Oprocentowanie w bieżącym okresie:\s*(\d+(?:,\d+)?)\s*%", t)
+    p = re.search(r"Okres odsetkowy:\s*(\d+)", t)
+    c = re.search(r"\b((?:OTS|ROR|DOR|TOS|COI|EDO|ROS|ROD)\d{4})\b", t)
+    if not (r and p and c):
+        raise BuildError("interest table: rate/period/code not found")
+    return (pl_num(r.group(1)) / 100).quantize(Decimal("0.0001")), c.group(1), int(p.group(1))
+
+
+class Mislabeled(NoTable):
+    """The dropdown points at a table whose PDF belongs to another series/period: treated as 'no table'."""
+
+
+def to_table(code: str, k: int, start: dt.date, to_listing, offline: bool) -> tuple[Decimal, str]:
+    """Rate of `code` period k+1 (starting `start`) from its official interest table. -> (rate, table id).
+
+    Already cached PDFs are used without any request (tables are immutable), so daily runs fetch only
+    tables of periods that are new. NoTable: the site has no table (or the dropdown entry is mislabeled)."""
     issues, tables = to_listing
     iid = issues.get(code)
     tid = tables.get(iid, {}).get(start) if iid else None
     if tid is None:
         raise NoTable(f"no interest table for {code} period starting {start}")
-    pg = fetch(f"{OS_BASE}/tabela-odsetkowa/?table_id={tid}", f"to/{tid}.html", None, offline,
-               kind="page_with_pdf")
-    fetch(parse_le_pdf_link(pg.decode("utf-8", "replace")), f"to/{tid}.pdf", None, offline, kind="pdf")
-    rate, tcode, period = parse_to_text(cached_pdf_text(f"to/{tid}.pdf"))
+    pdf_name = f"to/{tid}.pdf"
+    pdf_path = os.path.join(CACHE, pdf_name)
+    cached = False
+    if os.path.exists(pdf_path):
+        with open(pdf_path, "rb") as f:
+            cached = _valid(f.read(8), "pdf")
+    if not cached:
+        pg = fetch(f"{OS_BASE}/tabela-odsetkowa/?table_id={tid}", f"to/{tid}.html", None, offline,
+                   kind="page_with_pdf")
+        fetch(parse_le_pdf_link(pg.decode("utf-8", "replace")), pdf_name, None, offline, kind="pdf")
+    rate, tcode, period = parse_to_text(cached_pdf_text(pdf_name))
     if (tcode, period) != (code, k + 1):
-        raise BuildError(f"table {tid} is {tcode} period {period}, expected {code} period {k + 1}")
+        raise Mislabeled(f"table {tid} listed for {code} period {k + 1} is {tcode} period {period} (mislabeled)")
+    return rate, tid
+
+
+def check_to_rate(code: str, k: int, start: dt.date, want: Decimal, to_listing, offline: bool) -> None:
+    """Official interest table of `code` period k+1 (starting `start`) must show `want`.
+    NoTable = the site has no such table (or it is mislabeled); BuildError = the table disagrees."""
+    rate, tid = to_table(code, k, start, to_listing, offline)
     if rate != want:
-        raise BuildError(f"period {k + 1}: tabela odsetkowa {rate} != data {want}")
+        raise BuildError(f"period {k + 1}: tabela odsetkowa {rate} (table {tid}) != data {want}")
+
+
+TO_LOOKAHEAD_DAYS = 45      # tables appear ~20th of the month before the period starts
+
+
+def augment_from_tables(scope, to_listing, today: dt.date, offline: bool) -> tuple[list[str], list[str]]:
+    """Period rates newer than the XLS, from interest tables (the XLS lags: e.g. periods from 1 Nov are in
+    tables ~20 Oct, in the XLS only ~9 Nov). Only periods right after the last XLS rate, contiguous,
+    starting at most TO_LOOKAHEAD_DAYS ahead. -> (warnings, 'CODE#period' added)."""
+    warnings, added = [], []
+    horizon = today + dt.timedelta(days=TO_LOOKAHEAD_DAYS)
+    for x in sorted(scope.values(), key=lambda s: s.code):
+        if x.source != "XLS" or x.type in FIXED_RATE or not x.rates:
+            continue
+        months, per = TYPES[x.type]
+        while len(x.rates) < months // per:
+            k = len(x.rates)
+            start = add_months(x.sale_start, k * per)
+            if start > horizon:
+                break
+            try:
+                rate, _ = to_table(x.code, k, start, to_listing, offline)
+            except NoTable as e:
+                if isinstance(e, Mislabeled):
+                    warnings.append(str(e))
+                break
+            except BuildError as e:
+                warnings.append(f"{x.code} period {k + 1}: interest table not usable ({e})")
+                break
+            x.rates.append(rate)
+            x.to_rates += 1
+            added.append(f"{x.code}#{k + 1}")
+    return warnings, added
 
 
 def anchor_month(scope, label: str) -> str:
@@ -785,8 +843,9 @@ def validate_series(x: XlsSeries, le: LeTerms | None, as_of: dt.date, index: dic
     else:
         if x.source == "XLS":
             exp = expected_known_periods(x.type, x.sale_start, as_of)
-            if not (exp <= len(x.rates) <= min(months // per, exp + 1)):
-                e.append(f"{x.code}: {len(x.rates)} rates known, expected {exp} (as of XLS date {as_of}) - stale or missing period")
+            n_xls = len(x.rates) - x.to_rates
+            if not (exp <= n_xls <= min(months // per, exp + 1)):
+                e.append(f"{x.code}: {n_xls} rates known, expected {exp} (as of XLS date {as_of}) - stale or missing period")
         if x.margin is None:
             e.append(f"{x.code}: margin missing")
     idx = reference_index() if index is None else index
@@ -839,6 +898,7 @@ def to_json_entry(x: XlsSeries, le: LeTerms | None) -> dict:
         "conversionPrice": None if x.conversion_price is None else str(x.conversion_price),
         "firstRateFixed": bool(le and le.first_rate is not None),
         "source": x.source,
+        **({"rateSources": ["XLS"] * (len(rates) - x.to_rates) + ["TO"] * x.to_rates} if x.to_rates else {}),
     }
 
 
@@ -996,8 +1056,9 @@ def build(args) -> int:
 
     unknown = find_unknown_types(set(xls_foreign_codes(os.path.join(CACHE, "mf.xls"))) | set(listing), today)
     for prefix, codes in unknown.items():
-        errors.append(f"UNKNOWN BOND TYPE {prefix} (engine knows only {', '.join(TYPES)}): "
-                      f"not-yet-redeemed series {', '.join(codes)} -> app code update needed")
+        # (B): the app cannot value an unknown type anyway; its series are never in series.json (scope holds
+        # only the 8 engine types), everything else is published. Alerted on every run while it persists.
+        alerts.append(f"UNKNOWN BOND TYPE {prefix}: {', '.join(codes)} — app needs a code update (BondType.kt)")
 
     prev = None
     if os.path.exists(args.out):
@@ -1026,7 +1087,20 @@ def build(args) -> int:
     except BuildError as e:
         to_listing = None
         alerts.append(f"tabela odsetkowa listing unavailable ({e}); new rates cannot be verified")
+    to_added = []
+    if to_listing:
+        aug_warn, to_added = augment_from_tables(scope, to_listing, today, args.offline)
+        warnings += aug_warn
 
+    # rates published earlier from interest tables, which neither the XLS nor (today) a table provides:
+    # keep them (they were verified when published; a published rate is never withdrawn)
+    for code, x in scope.items():
+        old = prev_series.get(code, {}).get("rates", [])
+        if x.source == "XLS" and x.type not in FIXED_RATE and len(old) > len(x.rates)                 and old[:len(x.rates)] == [str(r) for r in x.rates]:
+            extra = old[len(x.rates):]
+            x.rates += [Decimal(r) for r in extra]
+            x.to_rates += len(extra)
+            warnings.append(f"{code}: {len(extra)} published table rate(s) kept without re-reading the table")
     offers = offers_from((x.type, x.sale_start.replace(day=1), x.rates) for x in scope.values())
     for t_m, r in index_offers(prev).items():
         offers.setdefault(t_m, r)
@@ -1151,6 +1225,7 @@ def build(args) -> int:
     counts = {t: sum(1 for s in entries.values() if s["type"] == t) for t in TYPES}
     print(f"XLS {xls_url} (Last-Modified {lm}); scope >= {today:%Y-%m} - {SCOPE_GRACE_MONTHS} mo; "
           f"series {len(entries)}: {counts}")
+    print(f"rates from interest tables (newer than XLS): {len(to_added)} ({', '.join(to_added[:12])}{' ...' if len(to_added) > 12 else ''})")
     print(f"rolling anchors verified: {', '.join(to_ok) or 'none'}")
     print(f"deep anchors verified: {len(deep_ok)} periods ({', '.join(sorted({l.split('#')[0] for l in deep_ok}))})")
     if anchor_skip:
