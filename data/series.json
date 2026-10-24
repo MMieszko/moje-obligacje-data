@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 2026102202,
- "generatedAt": "2026-10-22T15:08:36+00:00",
+ "version": 2026102400,
+ "generatedAt": "2026-10-24T13:29:12+00:00",
  "source": "MF 'Dane dotyczące obligacji detalicznych' https://www.gov.pl/attachment/3d42a295-18af-43c6-b56d-de975030f64a (Last-Modified 2026-10-09); early-redemption fee from listy emisyjne, obligacjeskarbowe.pl",
  "series": {
   "OTS0926": {
@@ -147,13 +147,28 @@
     "0.0375",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0127": {
    "type": "ROR",
@@ -168,13 +183,27 @@
     "0.0375",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0227": {
    "type": "ROR",
@@ -188,13 +217,26 @@
     "0.0375",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0327": {
    "type": "ROR",
@@ -207,13 +249,25 @@
     "0.0375",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0427": {
    "type": "ROR",
@@ -225,13 +279,24 @@
     "0.0375",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0527": {
    "type": "ROR",
@@ -242,13 +307,23 @@
     "0.0375",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0627": {
    "type": "ROR",
@@ -258,13 +333,22 @@
     "0.0375",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0727": {
    "type": "ROR",
@@ -273,17 +357,46 @@
     "0.0400",
     "0.0375",
     "0.0375",
+    "0.0375",
     "0.0375"
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "ROR0827": {
    "type": "ROR",
    "saleMonth": "2026-08",
+   "rates": [
+    "0.0400",
+    "0.0375",
+    "0.0375",
+    "0.0375"
+   ],
+   "margin": "0.0000",
+   "earlyRedemptionFee": "0.50",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
+  },
+  "ROR0927": {
+   "type": "ROR",
+   "saleMonth": "2026-09",
    "rates": [
     "0.0400",
     "0.0375",
@@ -293,11 +406,16 @@
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
-  "ROR0927": {
+  "ROR1027": {
    "type": "ROR",
-   "saleMonth": "2026-09",
+   "saleMonth": "2026-10",
    "rates": [
     "0.0400",
     "0.0375"
@@ -306,19 +424,11 @@
    "earlyRedemptionFee": "0.50",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
-  },
-  "ROR1027": {
-   "type": "ROR",
-   "saleMonth": "2026-10",
-   "rates": [
-    "0.0400"
-   ],
-   "margin": "0.0000",
-   "earlyRedemptionFee": "0.50",
-   "conversionPrice": "99.90",
-   "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0926": {
    "type": "DOR",
@@ -451,13 +561,40 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0127": {
    "type": "DOR",
@@ -484,13 +621,39 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0227": {
    "type": "DOR",
@@ -516,13 +679,38 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0327": {
    "type": "DOR",
@@ -547,13 +735,37 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0427": {
    "type": "DOR",
@@ -577,13 +789,36 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0527": {
    "type": "DOR",
@@ -606,13 +841,35 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0627": {
    "type": "DOR",
@@ -634,13 +891,34 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0727": {
    "type": "DOR",
@@ -661,13 +939,33 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0827": {
    "type": "DOR",
@@ -687,13 +985,32 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0927": {
    "type": "DOR",
@@ -712,13 +1029,31 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR1027": {
    "type": "DOR",
@@ -736,13 +1071,30 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR1127": {
    "type": "DOR",
@@ -759,13 +1111,29 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR1227": {
    "type": "DOR",
@@ -781,13 +1149,28 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0128": {
    "type": "DOR",
@@ -802,13 +1185,27 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0228": {
    "type": "DOR",
@@ -822,13 +1219,26 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0328": {
    "type": "DOR",
@@ -841,13 +1251,25 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0428": {
    "type": "DOR",
@@ -859,13 +1281,24 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0528": {
    "type": "DOR",
@@ -876,13 +1309,23 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0628": {
    "type": "DOR",
@@ -892,13 +1335,22 @@
     "0.0390",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0728": {
    "type": "DOR",
@@ -907,17 +1359,46 @@
     "0.0415",
     "0.0390",
     "0.0390",
+    "0.0390",
     "0.0390"
    ],
    "margin": "0.0015",
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
   "DOR0828": {
    "type": "DOR",
    "saleMonth": "2026-08",
+   "rates": [
+    "0.0415",
+    "0.0390",
+    "0.0390",
+    "0.0390"
+   ],
+   "margin": "0.0015",
+   "earlyRedemptionFee": "0.70",
+   "conversionPrice": "99.90",
+   "firstRateFixed": true,
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "XLS",
+    "TO"
+   ]
+  },
+  "DOR0928": {
+   "type": "DOR",
+   "saleMonth": "2026-09",
    "rates": [
     "0.0415",
     "0.0390",
@@ -927,11 +1408,16 @@
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "XLS",
+    "TO"
+   ]
   },
-  "DOR0928": {
+  "DOR1028": {
    "type": "DOR",
-   "saleMonth": "2026-09",
+   "saleMonth": "2026-10",
    "rates": [
     "0.0415",
     "0.0390"
@@ -940,19 +1426,11 @@
    "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
-   "source": "XLS"
-  },
-  "DOR1028": {
-   "type": "DOR",
-   "saleMonth": "2026-10",
-   "rates": [
-    "0.0415"
-   ],
-   "margin": "0.0015",
-   "earlyRedemptionFee": "0.70",
-   "conversionPrice": "99.90",
-   "firstRateFixed": true,
-   "source": "XLS"
+   "source": "XLS",
+   "rateSources": [
+    "XLS",
+    "TO"
+   ]
   },
   "TOS0926": {
    "type": "TOS",

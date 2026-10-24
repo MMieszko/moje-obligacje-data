@@ -1,10 +1,10 @@
 {
- "version": 2026102202,
+ "version": 2026102400,
  "schema": 1,
  "files": {
   "series.json": {
-   "sha256": "ef318ebef0b8697bbea4bca83d9c86fbeadc33f5ac29ab46fca0eba05a7130f3",
-   "bytes": 132238
+   "sha256": "1f0418fd7420c149b25b7e976d52357ec495d1ac3ff3bfa112ee2bcdf3ce8662",
+   "bytes": 137666
   }
  }
 }
