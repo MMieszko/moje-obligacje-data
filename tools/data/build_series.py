@@ -62,6 +62,7 @@ RATE_MIN, RATE_MAX = Decimal("0"), Decimal("0.25")
 MAX_COUNT_DROP = Decimal("0.05")
 SCOPE_GRACE_MONTHS = 1      # keep a series one month after its last maturity month (payout slips to next month)
 XLS_MAX_AGE_DAYS = 35       # MF updates the XLS ~9th of each month; > 35 days = an update was missed
+RATE_GRACE_DAYS = 1          # a started period without a rate is alerted from the day after it starts
 MISSING_MONTH_FAIL_DAY = 3  # from this day, no series (XLS or LE) for the current month is an error
 PL_MONTHS = {m: i + 1 for i, m in enumerate(
     "stycznia lutego marca kwietnia maja czerwca lipca sierpnia września października listopada grudnia".split())}
@@ -871,6 +872,25 @@ def validate_series(x: XlsSeries, le: LeTerms | None, as_of: dt.date, index: dic
     return e
 
 
+def missing_started_rates(entries: dict, today: dt.date) -> list[str]:
+    """Alert (B) when a period that has already started has no rate. Audit 4 (W1): such a rate was simply
+    absent (no table yet, XLS not updated) and the app showed n/a for every holder with no signal to us.
+    Counted for a lot bought on the first sale day - the earliest any holder needs the rate."""
+    as_of = today - dt.timedelta(days=RATE_GRACE_DAYS)
+    short = []
+    for code, s in entries.items():
+        if s["type"] in FIXED_RATE:
+            continue
+        exp = expected_known_periods(s["type"], dt.date.fromisoformat(s["saleMonth"] + "-01"), as_of)
+        if len(s["rates"]) < exp:
+            short.append(f"{code} ({len(s['rates'])}/{exp})")
+    if not short:
+        return []
+    more = f" ... (+{len(short) - 15})" if len(short) > 15 else ""
+    return [f"rate of an already started period missing in {len(short)} series - the app shows n/a: "
+            f"{', '.join(short[:15])}{more}"]
+
+
 def freshness_errors(xls_date: dt.date, newest_xls: dt.date, newest_any: dt.date, today: dt.date) -> tuple[list[str], list[str]]:
     """Daily runs: (errors, warnings). XLS updates ~9th; LE of next month ~21st-25th."""
     errors, warnings = [], []
@@ -1108,6 +1128,7 @@ def build(args) -> int:
     # offer of the current and next month that the XLS does not have yet -> from the LE alone
     newest_xls = max(x.sale_start for x in scope.values())
     this_month = today.replace(day=1)
+    le_verified: set[str] = set()
     for month in (this_month, add_months(this_month, 1)):
         for btype in TYPES:
             code = series_code(btype, month)
@@ -1128,7 +1149,10 @@ def build(args) -> int:
                     pass
                 except BuildError as e:
                     if not _transient(e):
-                        errors.append(f"{code} (LE-only): {e}")
+                        # LE disagrees with the official table: most likely a misread LE - skip this series only
+                        alerts.append(f"{code} (LE-only): {e}; not published yet")
+                        withheld.add(code)
+                        continue
             if month > this_month and not verified:
                 # not on sale yet: wait for the official period-1 table (published ~20th, before the month)
                 warnings.append(f"{code} (next month's offer, LE-only): period-1 rate not yet confirmed by "
@@ -1139,6 +1163,16 @@ def build(args) -> int:
                 alerts.append(f"{code} (LE-only): period-1 rate {x.rates[:1]} not verifiable (no interest table, "
                               f"no previous {btype} offer); withheld")
                 continue
+            # a broken LE of one new series (e.g. MF changed the template) must not stop the whole data set:
+            # skip that series with an alert (audit 4, S1). A rate confirmed by the official table is not
+            # second-guessed by the jump-vs-previous-offer heuristic.
+            pre = validate_series(x, le, xls_date, {}, {} if verified else offers)
+            if pre:
+                alerts.append(f"{code} (LE-only): {'; '.join(pre)}; not published yet")
+                withheld.add(code)
+                continue
+            if verified:
+                le_verified.add(code)
             scope[code] = x
             le_terms[code] = le
             how = "checked vs tabela odsetkowa" if verified else "plausibility vs previous month's offer"
@@ -1160,7 +1194,7 @@ def build(args) -> int:
         x, le = scope[code], le_terms.get(code)
         if le is None:
             continue                                   # withheld above (alerted)
-        errors += validate_series(x, le, xls_date, merged, offers)
+        errors += validate_series(x, le, xls_date, merged, {} if code in le_verified else offers)
         entries[code] = to_json_entry(x, le)
 
     f_err, f_warn = freshness_errors(xls_date, newest_xls, newest_any, today)
@@ -1217,6 +1251,8 @@ def build(args) -> int:
             alerts.append(f"{code}: published series missing from today's sources; previous entry carried forward")
     entries = dict(sorted(entries.items(), key=lambda kv: (list(TYPES).index(kv[1]["type"]), kv[1]["saleMonth"])))
     alerts += [f"download failed, stale cache used: {n}" for n in dict.fromkeys(FALLBACKS)]
+
+    alerts += missing_started_rates(entries, today)
 
     prev_n = len(prev.get("series", {})) if prev else None
     if prev_n and len(entries) < prev_n * (1 - MAX_COUNT_DROP):

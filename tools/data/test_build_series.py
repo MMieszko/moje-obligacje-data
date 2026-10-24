@@ -455,5 +455,29 @@ class TableSource(unittest.TestCase):
         self.assertEqual(calls, [])       # period 2 starts 2027-12: far beyond the look-ahead
 
 
+class Audit4Rules(unittest.TestCase):
+    """Audyt 4 (2026-10-22)."""
+
+    def test_missing_rate_of_started_period_alerts(self):
+        # W1: ROR sprzedawany od 2026-10, 2. okres zaczął się 1.11 -> 3.11 ma być alert, nie cisza
+        entries = {
+            "ROR1027": {"type": "ROR", "saleMonth": "2026-10", "rates": ["0.0450"]},
+            "ROR0926": {"type": "ROR", "saleMonth": "2025-09", "rates": ["0.05"] * 14},
+            "EDO1036": {"type": "EDO", "saleMonth": "2026-10", "rates": ["0.0560"]},
+        }
+        a = b.missing_started_rates(entries, dt.date(2026, 11, 3))
+        self.assertEqual(1, len(a))
+        self.assertIn("ROR1027 (1/2)", a[0])
+        self.assertNotIn("ROR0926", a[0])
+        self.assertNotIn("EDO1036", a[0])          # roczny okres EDO zaczyna się dopiero 2027-10
+
+    def test_first_day_of_period_is_grace(self):
+        entries = {"ROR1027": {"type": "ROR", "saleMonth": "2026-10", "rates": ["0.0450"]}}
+        self.assertEqual([], b.missing_started_rates(entries, dt.date(2026, 11, 1)))
+
+    def test_fixed_rate_types_ignored(self):
+        entries = {"OTS0127": {"type": "OTS", "saleMonth": "2026-10", "rates": ["0.0250"]}}
+        self.assertEqual([], b.missing_started_rates(entries, dt.date(2027, 1, 20)))
+
 if __name__ == "__main__":
     unittest.main()

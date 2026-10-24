@@ -1,6 +1,6 @@
 # Polityka prywatności aplikacji „Moje obligacje”
 
-Obowiązuje od: 2026-10-22
+Obowiązuje od: 2026-10-23
 
 Administrator danych: Mieszko Misztal, kontakt: mieszkomisztal@gmail.com.
 
@@ -26,8 +26,11 @@ użytkownika ani własnego serwera, na który wysyłałaby Twoje dane.
    O zgodę pytamy w aplikacji; zmienisz ją w „O aplikacji i prywatność”. Zbieramy zdarzenia typu „import się udał”,
    „otwarto ekran Pilnuj obligacji”, „wybrano przypomnienie w kalendarzu” oraz liczby (np. ile serii zaimportowano)
    i typy obligacji (np. EDO). **Nigdy nie wysyłamy kwot, kodów serii, dat ani treści plików** — pilnuje tego filtr
-   w kodzie aplikacji. Firebase przypisuje instalacji losowy identyfikator. Reklam nie ma; zgody reklamowe są zawsze
-   wyłączone. Podstawa prawna: zgoda (art. 6 ust. 1 lit. a RODO).
+   w kodzie aplikacji. Firebase przypisuje instalacji losowy identyfikator. Na podstawie adresu IP (po zamaskowaniu)
+   Google Analytics ustala przybliżoną lokalizację — miasto lub region, nie dokładne położenie. Analytics rejestruje
+   też automatycznie zakupy w aplikacji: identyfikator produktu i cenę (bez danych karty). Lokalizacja i zakupy trafiają
+   do statystyk tylko wtedy, gdy wyraziłeś zgodę. Reklam nie ma, aplikacja nie korzysta z identyfikatora
+   reklamowego (Advertising ID), a zgody reklamowe są zawsze wyłączone. Podstawa prawna: zgoda (art. 6 ust. 1 lit. a RODO).
 3. **Raporty błędów** (Firebase Crashlytics, Google Ireland Ltd.). Gdy aplikacja ulegnie awarii, wysyłamy techniczny
    opis błędu: miejsce w kodzie, model telefonu, wersję systemu i aplikacji oraz losowy identyfikator instalacji.
    Bez danych portfela. Raporty wyłączysz w „O aplikacji i prywatność”. Podstawa prawna: prawnie uzasadniony interes
@@ -42,7 +45,7 @@ powiadomień wysyłanych z serwera.
 
 ## Przechowywanie i przekazywanie
 
-Statystyki są przechowywane przez Google przez 2 miesiące, raporty błędów przez 90 dni. Google może przetwarzać dane
+Statystyki są przechowywane przez Google przez 14 miesięcy, raporty błędów przez 90 dni. Google może przetwarzać dane
 poza Europejskim Obszarem Gospodarczym (USA) na podstawie standardowych klauzul umownych i EU-US Data Privacy
 Framework. Szczegóły: https://firebase.google.com/support/privacy
 
