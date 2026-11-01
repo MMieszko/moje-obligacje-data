@@ -1,21 +1,9 @@
 {
  "schema": 1,
- "version": 2026102700,
- "generatedAt": "2026-10-27T12:14:20+00:00",
+ "version": 2026110100,
+ "generatedAt": "2026-11-01T13:33:41+00:00",
  "source": "MF 'Dane dotyczące obligacji detalicznych' https://www.gov.pl/attachment/f5fb73ad-cc95-4e47-a943-5910596ac527 (Last-Modified 2026-10-26); early-redemption fee from listy emisyjne, obligacjeskarbowe.pl",
  "series": {
-  "OTS0926": {
-   "type": "OTS",
-   "saleMonth": "2026-06",
-   "rates": [
-    "0.0200"
-   ],
-   "margin": null,
-   "earlyRedemptionFee": "0.00",
-   "conversionPrice": "100.00",
-   "firstRateFixed": true,
-   "source": "XLS"
-  },
   "OTS1026": {
    "type": "OTS",
    "saleMonth": "2026-07",
@@ -73,29 +61,6 @@
    "margin": null,
    "earlyRedemptionFee": "0.00",
    "conversionPrice": "100.00",
-   "firstRateFixed": true,
-   "source": "XLS"
-  },
-  "ROR0926": {
-   "type": "ROR",
-   "saleMonth": "2025-09",
-   "rates": [
-    "0.0500",
-    "0.0475",
-    "0.0450",
-    "0.0425",
-    "0.0400",
-    "0.0400",
-    "0.0400",
-    "0.0375",
-    "0.0375",
-    "0.0375",
-    "0.0375",
-    "0.0375"
-   ],
-   "margin": "0.0000",
-   "earlyRedemptionFee": "0.50",
-   "conversionPrice": "99.90",
    "firstRateFixed": true,
    "source": "XLS"
   },
@@ -351,41 +316,6 @@
    ],
    "margin": "0.0000",
    "earlyRedemptionFee": "0.50",
-   "conversionPrice": "99.90",
-   "firstRateFixed": true,
-   "source": "XLS"
-  },
-  "DOR0926": {
-   "type": "DOR",
-   "saleMonth": "2024-09",
-   "rates": [
-    "0.0590",
-    "0.0590",
-    "0.0590",
-    "0.0590",
-    "0.0590",
-    "0.0590",
-    "0.0590",
-    "0.0590",
-    "0.0590",
-    "0.0540",
-    "0.0540",
-    "0.0515",
-    "0.0515",
-    "0.0490",
-    "0.0465",
-    "0.0440",
-    "0.0415",
-    "0.0415",
-    "0.0415",
-    "0.0390",
-    "0.0390",
-    "0.0390",
-    "0.0390",
-    "0.0390"
-   ],
-   "margin": "0.0015",
-   "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
    "source": "XLS"
@@ -1024,20 +954,6 @@
    "firstRateFixed": true,
    "source": "XLS"
   },
-  "TOS0926": {
-   "type": "TOS",
-   "saleMonth": "2023-09",
-   "rates": [
-    "0.0685",
-    "0.0685",
-    "0.0685"
-   ],
-   "margin": null,
-   "earlyRedemptionFee": "0.70",
-   "conversionPrice": "99.90",
-   "firstRateFixed": true,
-   "source": "XLS"
-  },
   "TOS1026": {
    "type": "TOS",
    "saleMonth": "2023-10",
@@ -1566,21 +1482,6 @@
    ],
    "margin": null,
    "earlyRedemptionFee": "1.00",
-   "conversionPrice": "99.90",
-   "firstRateFixed": true,
-   "source": "XLS"
-  },
-  "COI0926": {
-   "type": "COI",
-   "saleMonth": "2022-09",
-   "rates": [
-    "0.0650",
-    "0.1180",
-    "0.0520",
-    "0.0410"
-   ],
-   "margin": "0.0100",
-   "earlyRedemptionFee": "0.70",
    "conversionPrice": "99.90",
    "firstRateFixed": true,
    "source": "XLS"
@@ -2256,27 +2157,6 @@
    "saleMonth": "2026-11",
    "rates": [
     "0.0475"
-   ],
-   "margin": "0.0150",
-   "earlyRedemptionFee": "2.00",
-   "conversionPrice": "99.90",
-   "firstRateFixed": true,
-   "source": "XLS"
-  },
-  "EDO0926": {
-   "type": "EDO",
-   "saleMonth": "2016-09",
-   "rates": [
-    "0.0250",
-    "0.0320",
-    "0.0350",
-    "0.0440",
-    "0.0450",
-    "0.0650",
-    "0.1710",
-    "0.1230",
-    "0.0570",
-    "0.0460"
    ],
    "margin": "0.0150",
    "earlyRedemptionFee": "2.00",
@@ -4303,23 +4183,6 @@
    "margin": "0.0200",
    "earlyRedemptionFee": "3.00",
    "conversionPrice": "99.90",
-   "firstRateFixed": true,
-   "source": "XLS"
-  },
-  "ROS0926": {
-   "type": "ROS",
-   "saleMonth": "2020-09",
-   "rates": [
-    "0.0150",
-    "0.0625",
-    "0.1685",
-    "0.1205",
-    "0.0545",
-    "0.0435"
-   ],
-   "margin": "0.0125",
-   "earlyRedemptionFee": "0.70",
-   "conversionPrice": null,
    "firstRateFixed": true,
    "source": "XLS"
   },
